@@ -1,0 +1,16 @@
+Qty,Reference,Description,Manufacturer,Part
+6,"C6,C10,C11,C12,C13,C15","Capacitor, 0.1uF, 6.3V, 10%, X5R, 0402",Murata,GRM155R71A104KA01D
+2,"C3,C4","Capacitor, 18pF, 50V, 5%, NPO, 0402",Murata,GRM1555C1H180JZ01D
+1,C2,"Capacitor, 10uF, 6.3VDC, 20%, X5R, 0603",Murata,GRM188R60J106ME47D
+4,"C1,C5,C7,C8","Capacitor, 1.0uF, 16VDC, 10%, X5R, 0603",Murata,GRM188R61C105KA93D
+2,"C9,C14","Capacitor, 4.7uF, 6.3VDC, 20%, X5R, 0603",Murata,GRM188R60J475KE19D
+1,FB1,"Ferrite Bead, 220 Ohm, 1.4A, 0.01DCR, 0402",Murata,BLM15PX221SN1D 
+1,J1,TransFlash Micro SD Push-Push Socket,Molex,47334-0001
+2,"JP1,JP2","Pin Headers 0.1” spacing, 5",,
+1,R1,"Resistor, 1Meg, 5%, 1/16W, 0603",Panasonic,ERJ-3GEYJ105V
+2,"R2,R3","Resistor, 100K, 5%, 1/16W, 0603",Panasonic,ERJ-3GEYJ104V
+1,R4,"Resistor, 12.0K, 1%, 1/16W, 0603",Panasonic,ERJ-3EKF1202V
+1,R5,"Resistor, 2.2K, 5%, 1/16W, 0603",Panasonic,ERJ-3GEYJ222V
+1,U3,"Voltage Regulator, SOT23-5, 3.3V",Microchip,MIC5219-3.3YM5-TR
+1,Y1,"Crystal, 24.000MHz, 50ppm, 18pF, CTS406",CTS,406C35D24
+1,U1,USB2244,Microchip,USB2244-AEZG-06
