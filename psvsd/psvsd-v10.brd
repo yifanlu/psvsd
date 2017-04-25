@@ -3111,7 +3111,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <circle x="-2.58" y="-2.58" radius="0.2" width="0" layer="21"/>
 <text x="-1.94" y="1.09" size="0.8128" layer="27">&gt;Value</text>
 <text x="-2.01" y="-1.78" size="0.8128" layer="25">&gt;Name</text>
-<smd name="0" x="0" y="0" dx="4.1" dy="4.1" layer="1" stop="no"/>
+<smd name="0" x="0" y="0" dx="4.1" dy="4.1" layer="1"/>
 <wire x1="-2.6" y1="-3" x2="2.6" y2="-3" width="0.127" layer="51"/>
 <wire x1="3" y1="-2.6" x2="3" y2="2.6" width="0.127" layer="51"/>
 <wire x1="2.6" y1="3" x2="-2.6" y2="3" width="0.127" layer="51"/>
