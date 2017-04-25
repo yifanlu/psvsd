@@ -515,194 +515,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="microchip">
-<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
-Based on the following sources :
-&lt;ul&gt;
-&lt;li&gt;Microchip Data Book, 1993
-&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
-&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
-&lt;li&gt;www.microchip.com
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="QFN36">
-<description>36-pin QFN</description>
-<wire x1="-3" y1="2.6" x2="-3" y2="-2.6" width="0.127" layer="51"/>
-<smd name="5" x="0" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-0.115" y1="-3.22" x2="0.115" y2="-2.4" layer="31"/>
-<smd name="6" x="0.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="0.385" y1="-3.22" x2="0.615" y2="-2.4" layer="31"/>
-<smd name="7" x="1" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="0.885" y1="-3.22" x2="1.115" y2="-2.4" layer="31"/>
-<smd name="8" x="1.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="1.385" y1="-3.22" x2="1.615" y2="-2.4" layer="31"/>
-<smd name="9" x="2" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="1.885" y1="-3.22" x2="2.115" y2="-2.4" layer="31"/>
-<smd name="4" x="-0.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-0.615" y1="-3.22" x2="-0.385" y2="-2.4" layer="31"/>
-<smd name="3" x="-1" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-1.115" y1="-3.22" x2="-0.885" y2="-2.4" layer="31"/>
-<smd name="2" x="-1.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-1.615" y1="-3.22" x2="-1.385" y2="-2.4" layer="31"/>
-<smd name="1" x="-2" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-2.115" y1="-3.22" x2="-1.885" y2="-2.4" layer="31"/>
-<smd name="14" x="2.8" y="0" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="-0.115" x2="3.22" y2="0.115" layer="31"/>
-<smd name="15" x="2.8" y="0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="0.385" x2="3.22" y2="0.615" layer="31"/>
-<smd name="16" x="2.8" y="1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="0.885" x2="3.22" y2="1.115" layer="31"/>
-<smd name="17" x="2.8" y="1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="1.385" x2="3.22" y2="1.615" layer="31"/>
-<smd name="18" x="2.8" y="2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="1.885" x2="3.22" y2="2.115" layer="31"/>
-<smd name="13" x="2.8" y="-0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="-0.615" x2="3.22" y2="-0.385" layer="31"/>
-<smd name="12" x="2.8" y="-1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="-1.115" x2="3.22" y2="-0.885" layer="31"/>
-<smd name="11" x="2.8" y="-1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="-1.615" x2="3.22" y2="-1.385" layer="31"/>
-<smd name="10" x="2.8" y="-2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.4" y1="-2.115" x2="3.22" y2="-1.885" layer="31"/>
-<smd name="23" x="0" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-0.115" y1="2.4" x2="0.115" y2="3.22" layer="31"/>
-<smd name="22" x="0.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="0.385" y1="2.4" x2="0.615" y2="3.22" layer="31"/>
-<smd name="21" x="1" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="0.885" y1="2.4" x2="1.115" y2="3.22" layer="31"/>
-<smd name="20" x="1.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="1.385" y1="2.4" x2="1.615" y2="3.22" layer="31"/>
-<smd name="19" x="2" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="1.885" y1="2.4" x2="2.115" y2="3.22" layer="31"/>
-<smd name="24" x="-0.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-0.615" y1="2.4" x2="-0.385" y2="3.22" layer="31"/>
-<smd name="25" x="-1" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-1.115" y1="2.4" x2="-0.885" y2="3.22" layer="31"/>
-<smd name="26" x="-1.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-1.615" y1="2.4" x2="-1.385" y2="3.22" layer="31"/>
-<smd name="27" x="-2" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
-<rectangle x1="-2.115" y1="2.4" x2="-1.885" y2="3.22" layer="31"/>
-<smd name="32" x="-2.8" y="0" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="-0.115" x2="-2.4" y2="0.115" layer="31"/>
-<smd name="31" x="-2.8" y="0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="0.385" x2="-2.4" y2="0.615" layer="31"/>
-<smd name="30" x="-2.8" y="1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="0.885" x2="-2.4" y2="1.115" layer="31"/>
-<smd name="29" x="-2.8" y="1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="1.385" x2="-2.4" y2="1.615" layer="31"/>
-<smd name="28" x="-2.8" y="2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="1.885" x2="-2.4" y2="2.115" layer="31"/>
-<smd name="33" x="-2.8" y="-0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="-0.615" x2="-2.4" y2="-0.385" layer="31"/>
-<smd name="34" x="-2.8" y="-1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="-1.115" x2="-2.4" y2="-0.885" layer="31"/>
-<smd name="35" x="-2.8" y="-1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="-1.615" x2="-2.4" y2="-1.385" layer="31"/>
-<smd name="36" x="-2.8" y="-2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-3.22" y1="-2.115" x2="-2.4" y2="-1.885" layer="31"/>
-<circle x="-2.58" y="-2.58" radius="0.2" width="0" layer="21"/>
-<text x="-1.94" y="1.09" size="0.8128" layer="27">&gt; Value</text>
-<text x="-2.01" y="-1.78" size="0.8128" layer="25">&gt; Name</text>
-<smd name="0" x="0" y="0" dx="4.1" dy="4.1" layer="1" stop="no"/>
-<wire x1="-2.6" y1="-3" x2="2.6" y2="-3" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="2.6" width="0.127" layer="51"/>
-<wire x1="2.6" y1="3" x2="-2.6" y2="3" width="0.127" layer="51"/>
-<wire x1="-3" y1="2.6" x2="-2.6" y2="3" width="0.127" layer="51"/>
-<wire x1="2.6" y1="3" x2="3" y2="2.6" width="0.127" layer="51"/>
-<wire x1="2.6" y1="-3" x2="3" y2="-2.6" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.6" x2="-2.6" y2="-3" width="0.127" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB2244">
-<description>USB2244</description>
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<pin name="SD_D0" x="-12.7" y="17.78" length="middle" rot="R180"/>
-<pin name="SD_D1" x="-12.7" y="15.24" length="middle" rot="R180"/>
-<pin name="SD_D2" x="-12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="SD_D3" x="-12.7" y="10.16" length="middle" rot="R180"/>
-<pin name="SD_D4" x="-12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="SD_D5" x="-12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="SD_D6" x="-12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SD_D7" x="-12.7" y="0" length="middle" rot="R180"/>
-<pin name="SD_CLK" x="-12.7" y="-2.54" length="middle" direction="out" function="clk" rot="R180"/>
-<pin name="SD_CMD" x="-12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="SD_WP" x="-12.7" y="-7.62" length="middle" direction="in" rot="R180"/>
-<pin name="!SD_CD" x="-12.7" y="-10.16" length="middle" rot="R180"/>
-<pin name="VDD33@6" x="-12.7" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="USB+" x="12.7" y="17.78" length="middle"/>
-<pin name="USB-" x="12.7" y="15.24" length="middle"/>
-<pin name="RBIAS" x="12.7" y="12.7" length="middle"/>
-<pin name="XTAL1" x="12.7" y="10.16" length="middle" direction="in"/>
-<pin name="XTAL2" x="12.7" y="7.62" length="middle" direction="out"/>
-<pin name="VDDA33" x="12.7" y="5.08" length="middle" direction="pwr"/>
-<pin name="VDD18PLL" x="12.7" y="2.54" length="middle" direction="pas"/>
-<pin name="RXD/SDA" x="12.7" y="0" length="middle"/>
-<pin name="TXD/SCK" x="12.7" y="-2.54" length="middle"/>
-<pin name="CRD_PWR" x="12.7" y="-5.08" length="middle"/>
-<pin name="!RESET" x="12.7" y="-7.62" length="middle" direction="in"/>
-<pin name="TEST" x="12.7" y="-10.16" length="middle" direction="in"/>
-<pin name="LED" x="12.7" y="-12.7" length="middle"/>
-<pin name="VDD33@14" x="-12.7" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@22" x="-12.7" y="-17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSS" x="12.7" y="-17.78" length="middle" direction="pwr"/>
-<text x="-12.7" y="22.86" size="1.778" layer="95">&gt; Name</text>
-<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt; Value</text>
-<pin name="VDD18" x="12.7" y="-15.24" length="middle" direction="pwr"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USB2244" prefix="U">
-<description>USB2244/USB2244I</description>
-<gates>
-<gate name="G$1" symbol="USB2244" x="0" y="0"/>
-</gates>
-<devices>
-<device name="QFN" package="QFN36">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="18"/>
-<connect gate="G$1" pin="!SD_CD" pad="26"/>
-<connect gate="G$1" pin="CRD_PWR" pad="21"/>
-<connect gate="G$1" pin="LED" pad="1"/>
-<connect gate="G$1" pin="RBIAS" pad="35"/>
-<connect gate="G$1" pin="RXD/SDA" pad="27"/>
-<connect gate="G$1" pin="SD_CLK" pad="9"/>
-<connect gate="G$1" pin="SD_CMD" pad="11"/>
-<connect gate="G$1" pin="SD_D0" pad="5"/>
-<connect gate="G$1" pin="SD_D1" pad="4"/>
-<connect gate="G$1" pin="SD_D2" pad="25"/>
-<connect gate="G$1" pin="SD_D3" pad="23"/>
-<connect gate="G$1" pin="SD_D4" pad="20"/>
-<connect gate="G$1" pin="SD_D5" pad="10"/>
-<connect gate="G$1" pin="SD_D6" pad="8"/>
-<connect gate="G$1" pin="SD_D7" pad="7"/>
-<connect gate="G$1" pin="SD_WP" pad="30"/>
-<connect gate="G$1" pin="TEST" pad="28"/>
-<connect gate="G$1" pin="TXD/SCK" pad="31"/>
-<connect gate="G$1" pin="USB+" pad="2"/>
-<connect gate="G$1" pin="USB-" pad="3"/>
-<connect gate="G$1" pin="VDD18" pad="13"/>
-<connect gate="G$1" pin="VDD18PLL" pad="34"/>
-<connect gate="G$1" pin="VDD33@14" pad="14"/>
-<connect gate="G$1" pin="VDD33@22" pad="22"/>
-<connect gate="G$1" pin="VDD33@6" pad="6"/>
-<connect gate="G$1" pin="VDDA33" pad="36"/>
-<connect gate="G$1" pin="VSS" pad="0"/>
-<connect gate="G$1" pin="XTAL1" pad="33"/>
-<connect gate="G$1" pin="XTAL2" pad="32"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -7875,6 +7687,185 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="USB2244">
+<packages>
+<package name="QFN36">
+<description>36-pin QFN</description>
+<wire x1="-3" y1="2.6" x2="-3" y2="-2.6" width="0.127" layer="51"/>
+<smd name="5" x="0" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-0.115" y1="-3.22" x2="0.115" y2="-2.4" layer="31"/>
+<smd name="6" x="0.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="0.385" y1="-3.22" x2="0.615" y2="-2.4" layer="31"/>
+<smd name="7" x="1" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="0.885" y1="-3.22" x2="1.115" y2="-2.4" layer="31"/>
+<smd name="8" x="1.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="1.385" y1="-3.22" x2="1.615" y2="-2.4" layer="31"/>
+<smd name="9" x="2" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="1.885" y1="-3.22" x2="2.115" y2="-2.4" layer="31"/>
+<smd name="4" x="-0.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-0.615" y1="-3.22" x2="-0.385" y2="-2.4" layer="31"/>
+<smd name="3" x="-1" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-1.115" y1="-3.22" x2="-0.885" y2="-2.4" layer="31"/>
+<smd name="2" x="-1.5" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-1.615" y1="-3.22" x2="-1.385" y2="-2.4" layer="31"/>
+<smd name="1" x="-2" y="-2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-2.115" y1="-3.22" x2="-1.885" y2="-2.4" layer="31"/>
+<smd name="14" x="2.8" y="0" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="-0.115" x2="3.22" y2="0.115" layer="31"/>
+<smd name="15" x="2.8" y="0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="0.385" x2="3.22" y2="0.615" layer="31"/>
+<smd name="16" x="2.8" y="1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="0.885" x2="3.22" y2="1.115" layer="31"/>
+<smd name="17" x="2.8" y="1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="1.385" x2="3.22" y2="1.615" layer="31"/>
+<smd name="18" x="2.8" y="2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="1.885" x2="3.22" y2="2.115" layer="31"/>
+<smd name="13" x="2.8" y="-0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="-0.615" x2="3.22" y2="-0.385" layer="31"/>
+<smd name="12" x="2.8" y="-1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="-1.115" x2="3.22" y2="-0.885" layer="31"/>
+<smd name="11" x="2.8" y="-1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="-1.615" x2="3.22" y2="-1.385" layer="31"/>
+<smd name="10" x="2.8" y="-2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="2.4" y1="-2.115" x2="3.22" y2="-1.885" layer="31"/>
+<smd name="23" x="0" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-0.115" y1="2.4" x2="0.115" y2="3.22" layer="31"/>
+<smd name="22" x="0.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="0.385" y1="2.4" x2="0.615" y2="3.22" layer="31"/>
+<smd name="21" x="1" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="0.885" y1="2.4" x2="1.115" y2="3.22" layer="31"/>
+<smd name="20" x="1.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="1.385" y1="2.4" x2="1.615" y2="3.22" layer="31"/>
+<smd name="19" x="2" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="1.885" y1="2.4" x2="2.115" y2="3.22" layer="31"/>
+<smd name="24" x="-0.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-0.615" y1="2.4" x2="-0.385" y2="3.22" layer="31"/>
+<smd name="25" x="-1" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-1.115" y1="2.4" x2="-0.885" y2="3.22" layer="31"/>
+<smd name="26" x="-1.5" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-1.615" y1="2.4" x2="-1.385" y2="3.22" layer="31"/>
+<smd name="27" x="-2" y="2.8" dx="0.28" dy="0.9" layer="1" cream="no"/>
+<rectangle x1="-2.115" y1="2.4" x2="-1.885" y2="3.22" layer="31"/>
+<smd name="32" x="-2.8" y="0" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="-0.115" x2="-2.4" y2="0.115" layer="31"/>
+<smd name="31" x="-2.8" y="0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="0.385" x2="-2.4" y2="0.615" layer="31"/>
+<smd name="30" x="-2.8" y="1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="0.885" x2="-2.4" y2="1.115" layer="31"/>
+<smd name="29" x="-2.8" y="1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="1.385" x2="-2.4" y2="1.615" layer="31"/>
+<smd name="28" x="-2.8" y="2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="1.885" x2="-2.4" y2="2.115" layer="31"/>
+<smd name="33" x="-2.8" y="-0.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="-0.615" x2="-2.4" y2="-0.385" layer="31"/>
+<smd name="34" x="-2.8" y="-1" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="-1.115" x2="-2.4" y2="-0.885" layer="31"/>
+<smd name="35" x="-2.8" y="-1.5" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="-1.615" x2="-2.4" y2="-1.385" layer="31"/>
+<smd name="36" x="-2.8" y="-2" dx="0.28" dy="0.9" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-3.22" y1="-2.115" x2="-2.4" y2="-1.885" layer="31"/>
+<circle x="-2.58" y="-2.58" radius="0.2" width="0" layer="21"/>
+<text x="-1.94" y="1.09" size="0.8128" layer="27">&gt;Value</text>
+<text x="-2.01" y="-1.78" size="0.8128" layer="25">&gt;Name</text>
+<smd name="0" x="0" y="0" dx="4.1" dy="4.1" layer="1" stop="no"/>
+<wire x1="-2.6" y1="-3" x2="2.6" y2="-3" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.6" x2="3" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.6" y1="3" x2="-2.6" y2="3" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.6" x2="-2.6" y2="3" width="0.127" layer="51"/>
+<wire x1="2.6" y1="3" x2="3" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.6" y1="-3" x2="3" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.6" x2="-2.6" y2="-3" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB2244">
+<description>USB2244</description>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="SD_D0" x="-17.78" y="17.78" length="middle"/>
+<pin name="SD_D1" x="-17.78" y="15.24" length="middle"/>
+<pin name="SD_D2" x="-17.78" y="12.7" length="middle"/>
+<pin name="SD_D3" x="-17.78" y="10.16" length="middle"/>
+<pin name="SD_D4" x="-17.78" y="7.62" length="middle"/>
+<pin name="SD_D5" x="-17.78" y="5.08" length="middle"/>
+<pin name="SD_D6" x="-17.78" y="2.54" length="middle"/>
+<pin name="SD_D7" x="-17.78" y="0" length="middle"/>
+<pin name="SD_CLK" x="-17.78" y="-2.54" length="middle" direction="out"/>
+<pin name="SD_CMD" x="-17.78" y="-5.08" length="middle"/>
+<pin name="SD_WP" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="!SD_CD" x="-17.78" y="-10.16" length="middle"/>
+<pin name="VDD33@6" x="-17.78" y="-12.7" length="middle"/>
+<pin name="USB+" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="USB-" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="RBIAS" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="XTAL1" x="17.78" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="XTAL2" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="VDDA33" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD18PLL" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="RXD/SDA" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="TXD/SCK" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CRD_PWR" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="!RESET" x="17.78" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="TEST" x="17.78" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="LED" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD33@14" x="-17.78" y="-15.24" length="middle"/>
+<pin name="VDD33@22" x="-17.78" y="-17.78" length="middle"/>
+<pin name="VSS" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;Value</text>
+<pin name="VDD18" x="17.78" y="-15.24" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB2244" prefix="U">
+<description>USB2244/USB2244I</description>
+<gates>
+<gate name="G$1" symbol="USB2244" x="0" y="0"/>
+</gates>
+<devices>
+<device name="QFN" package="QFN36">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="18"/>
+<connect gate="G$1" pin="!SD_CD" pad="26"/>
+<connect gate="G$1" pin="CRD_PWR" pad="21"/>
+<connect gate="G$1" pin="LED" pad="1"/>
+<connect gate="G$1" pin="RBIAS" pad="35"/>
+<connect gate="G$1" pin="RXD/SDA" pad="27"/>
+<connect gate="G$1" pin="SD_CLK" pad="9"/>
+<connect gate="G$1" pin="SD_CMD" pad="11"/>
+<connect gate="G$1" pin="SD_D0" pad="5"/>
+<connect gate="G$1" pin="SD_D1" pad="4"/>
+<connect gate="G$1" pin="SD_D2" pad="25"/>
+<connect gate="G$1" pin="SD_D3" pad="23"/>
+<connect gate="G$1" pin="SD_D4" pad="20"/>
+<connect gate="G$1" pin="SD_D5" pad="10"/>
+<connect gate="G$1" pin="SD_D6" pad="8"/>
+<connect gate="G$1" pin="SD_D7" pad="7"/>
+<connect gate="G$1" pin="SD_WP" pad="30"/>
+<connect gate="G$1" pin="TEST" pad="28"/>
+<connect gate="G$1" pin="TXD/SCK" pad="31"/>
+<connect gate="G$1" pin="USB+" pad="2"/>
+<connect gate="G$1" pin="USB-" pad="3"/>
+<connect gate="G$1" pin="VDD18" pad="13"/>
+<connect gate="G$1" pin="VDD18PLL" pad="34"/>
+<connect gate="G$1" pin="VDD33@14" pad="14"/>
+<connect gate="G$1" pin="VDD33@22" pad="22"/>
+<connect gate="G$1" pin="VDD33@6" pad="6"/>
+<connect gate="G$1" pin="VDDA33" pad="36"/>
+<connect gate="G$1" pin="VSS" pad="0"/>
+<connect gate="G$1" pin="XTAL1" pad="33"/>
+<connect gate="G$1" pin="XTAL2" pad="32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7889,7 +7880,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <part name="GND" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="J1" library="sd-mmc" deviceset="TRANSFLASH" device="-PUSH"/>
-<part name="U1" library="microchip" deviceset="USB2244" device="QFN"/>
+<part name="U1" library="USB2244" deviceset="USB2244" device="QFN"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X5" device="" value="UART_KERMIT"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X5" device="" value="UART_SYSCON"/>
 <part name="U3" library="v-reg-micrel" deviceset="MIC5219XX" device="" value="VREG"/>
@@ -8125,6 +8116,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <pinref part="U$1" gate="G$2" pin="GND"/>
 <pinref part="U$1" gate="G$3" pin="GND"/>
 <wire x1="-15.24" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91"/>
+<label x="-15.24" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -8175,7 +8167,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="TEST"/>
-<wire x1="-144.78" y1="0" x2="-170.18" y2="0" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="0" x2="-170.18" y2="0" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="0" x2="-170.18" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
@@ -8194,7 +8186,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VSS"/>
-<wire x1="-144.78" y1="7.62" x2="-185.42" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="7.62" x2="-185.42" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-185.42" y1="7.62" x2="-185.42" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
@@ -8224,7 +8216,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SD_WP"/>
-<wire x1="-119.38" y1="-2.54" x2="-93.98" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-2.54" x2="-93.98" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8305,7 +8297,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-93.98" y1="-25.4" x2="-101.6" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-25.4" x2="-101.6" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_D0"/>
-<wire x1="-101.6" y1="-27.94" x2="-119.38" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-27.94" x2="-114.3" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_D1" class="0">
@@ -8316,7 +8308,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-99.06" y1="-30.48" x2="-111.76" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="-30.48" x2="-111.76" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_D1"/>
-<wire x1="-111.76" y1="-25.4" x2="-119.38" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-25.4" x2="-114.3" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_D2" class="0">
@@ -8325,7 +8317,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-93.98" y1="-10.16" x2="-104.14" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-10.16" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_D2"/>
-<wire x1="-104.14" y1="-22.86" x2="-119.38" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-22.86" x2="-114.3" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_D3" class="0">
@@ -8334,7 +8326,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-93.98" y1="-12.7" x2="-101.6" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-12.7" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_D3"/>
-<wire x1="-101.6" y1="-20.32" x2="-119.38" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-20.32" x2="-114.3" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_CMD" class="0">
@@ -8343,7 +8335,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-93.98" y1="-15.24" x2="-96.52" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="-15.24" x2="-96.52" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_CMD"/>
-<wire x1="-96.52" y1="-5.08" x2="-119.38" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-5.08" x2="-114.3" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_CLK" class="0">
@@ -8352,33 +8344,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-93.98" y1="-20.32" x2="-99.06" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="-20.32" x2="-99.06" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SD_CLK"/>
-<wire x1="-99.06" y1="-7.62" x2="-119.38" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CRD_PWR" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="CRD_PWR"/>
-<wire x1="-144.78" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="VDD"/>
-<wire x1="-93.98" y1="-17.78" x2="-96.52" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="-116.84" y1="-43.18" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="-111.76" y1="-43.18" x2="-111.76" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-43.18" x2="-99.06" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-111.76" y="-43.18"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-99.06" y1="-43.18" x2="-99.06" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="-43.18" x2="-88.9" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-99.06" y="-43.18"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="-88.9" y1="-43.18" x2="-88.9" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="-43.18" x2="-83.82" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-88.9" y="-43.18"/>
-<label x="-116.84" y="-43.18" size="1.778" layer="95"/>
+<wire x1="-99.06" y1="-7.62" x2="-114.3" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD33" class="0">
@@ -8408,19 +8374,23 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDA33"/>
-<wire x1="-144.78" y1="-15.24" x2="-152.4" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-15.24" x2="-152.4" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-160.02" y="-15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD33@22"/>
-<wire x1="-119.38" y1="7.62" x2="-111.76" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="7.62" x2="-111.76" y2="7.62" width="0.1524" layer="91"/>
+<label x="-111.76" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD33@14"/>
-<wire x1="-119.38" y1="5.08" x2="-111.76" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="5.08" x2="-111.76" y2="5.08" width="0.1524" layer="91"/>
+<label x="-111.76" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD33@6"/>
-<wire x1="-119.38" y1="2.54" x2="-111.76" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="2.54" x2="-111.76" y2="2.54" width="0.1524" layer="91"/>
+<label x="-111.76" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -8439,7 +8409,8 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL1"/>
-<wire x1="-144.78" y1="-20.32" x2="-152.4" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-20.32" x2="-152.4" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-160.02" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -8458,7 +8429,8 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL2"/>
-<wire x1="-144.78" y1="-17.78" x2="-152.4" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-17.78" x2="-152.4" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-160.02" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD5" class="0">
@@ -8502,13 +8474,14 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
-<wire x1="-144.78" y1="-2.54" x2="-152.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-2.54" x2="-152.4" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-160.02" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD18PLL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD18PLL"/>
-<wire x1="-144.78" y1="-12.7" x2="-177.8" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-12.7" x2="-177.8" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="-12.7" x2="-177.8" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 </segment>
@@ -8516,7 +8489,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <net name="VDD18" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD18"/>
-<wire x1="-144.78" y1="5.08" x2="-177.8" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="5.08" x2="-177.8" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="5.08" x2="-177.8" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
@@ -8525,27 +8498,59 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="RBIAS"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-144.78" y1="-22.86" x2="-157.48" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-22.86" x2="-157.48" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB-" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="USB-"/>
-<wire x1="-144.78" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-160.02" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_D-"/>
 <wire x1="-33.02" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<label x="-45.72" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB+" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="USB+"/>
-<wire x1="-144.78" y1="-27.94" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-27.94" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-160.02" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_D+"/>
 <wire x1="-33.02" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
+<label x="-45.72" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VDD"/>
+<wire x1="-93.98" y1="-17.78" x2="-96.52" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-99.06" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="CRD_PWR"/>
+<wire x1="-149.86" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-157.48" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-116.84" y1="-43.18" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="-111.76" y1="-43.18" x2="-111.76" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-43.18" x2="-99.06" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-111.76" y="-43.18"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-99.06" y1="-43.18" x2="-99.06" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-43.18" x2="-88.9" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-99.06" y="-43.18"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="-43.18" x2="-88.9" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="-43.18" x2="-83.82" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-88.9" y="-43.18"/>
+<label x="-116.84" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
