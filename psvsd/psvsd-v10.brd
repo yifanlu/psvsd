@@ -8,11 +8,11 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -22,9 +22,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -3131,20 +3131,32 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1">
-<description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Min width/Spacing: 5/5mil
-&lt;br&gt;Min diameter of finished hole 12mil</description>
+<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -3153,7 +3165,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
+<param name="msWidth" value="6mil"/>
 <param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -3189,7 +3201,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="25mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3631,10 +3643,10 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <via x="21.59" y="23.5458" extent="1-16" drill="0.3048"/>
 <via x="21.59" y="12.065" extent="1-16" drill="0.3048"/>
 <wire x1="7.3198" y1="4.591775" x2="7.513225" y2="4.7852" width="0.254" layer="1"/>
-<wire x1="7.15" y1="3.255" x2="7.3198" y2="3.4248" width="0.254" layer="1"/>
+<wire x1="7.3198" y1="3.4248" x2="7.15" y2="3.255" width="0.254" layer="1"/>
 <wire x1="7.3198" y1="3.4248" x2="7.3198" y2="4.591775" width="0.254" layer="1"/>
-<wire x1="7.513225" y1="4.7852" x2="7.9602" y2="4.7852" width="0.254" layer="1"/>
-<wire x1="7.9602" y1="4.7852" x2="8.255" y2="5.08" width="0.254" layer="1"/>
+<wire x1="7.9602" y1="4.7852" x2="7.513225" y2="4.7852" width="0.254" layer="1"/>
+<wire x1="8.255" y1="5.08" x2="7.9602" y2="4.7852" width="0.254" layer="1"/>
 <via x="11.43" y="7.62" extent="1-16" drill="0.3048"/>
 <via x="26.67" y="6.35" extent="1-16" drill="0.3048"/>
 <via x="3.81" y="7.62" extent="1-16" drill="0.3048"/>
@@ -3847,51 +3859,35 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="20.442" y1="19.745" x2="20.442" y2="20.657" width="0.254" layer="16"/>
 <wire x1="20.442" y1="20.657" x2="22.01" y2="22.225" width="0.254" layer="16"/>
 </signal>
-<signal name="USB-">
+<signal name="USB_N">
 <contactref element="U1" pad="3"/>
-<contactref element="U$1" pad="5"/>
-<via x="26.67" y="18.415" extent="1-16" drill="0.3048"/>
-<wire x1="21.742" y1="17.945" x2="21.7718" y2="17.9748" width="0.254" layer="16"/>
-<wire x1="23.00050625" y1="18.3388" x2="23.9645875" y2="18.3388" width="0.254" layer="16"/>
-<wire x1="21.7718" y1="17.9748" x2="22.63650625" y2="17.9748" width="0.254" layer="16"/>
-<wire x1="22.63650625" y1="17.9748" x2="23.00050625" y2="18.3388" width="0.254" layer="16"/>
-<wire x1="23.9645875" y1="18.3388" x2="24.1423875" y2="18.5166" width="0.254" layer="16"/>
-<wire x1="25.4123875" y1="18.3134" x2="26.0226125" y2="18.3134" width="0.254" layer="16"/>
-<wire x1="26.0226125" y1="18.3134" x2="26.1242125" y2="18.415" width="0.254" layer="16"/>
-<wire x1="26.1242125" y1="18.415" x2="26.67" y2="18.415" width="0.254" layer="16"/>
-<wire x1="24.1423875" y1="18.5166" x2="25.2091875" y2="18.5166" width="0.254" layer="16"/>
-<wire x1="25.2091875" y1="18.5166" x2="25.4123875" y2="18.3134" width="0.254" layer="16"/>
-<wire x1="6.35" y1="3.255" x2="6.5198" y2="3.4248" width="0.254" layer="1"/>
-<wire x1="6.5198" y1="3.4248" x2="6.5198" y2="4.591775" width="0.254" layer="1"/>
-<wire x1="11.43" y1="9.501975" x2="11.43" y2="9.525" width="0.254" layer="1"/>
-<wire x1="6.5198" y1="4.591775" x2="11.43" y2="9.501975" width="0.254" layer="1"/>
-<wire x1="11.43" y1="9.525" x2="11.5062" y2="9.6012" width="0.254" layer="1"/>
-<wire x1="11.5062" y1="9.6012" x2="17.0434" y2="9.6012" width="0.254" layer="1"/>
-<wire x1="17.0434" y1="9.6012" x2="17.78" y2="10.3378" width="0.254" layer="1"/>
-<wire x1="17.78" y1="10.3378" x2="23.04938125" y2="10.3378" width="0.254" layer="1"/>
-<wire x1="23.04938125" y1="10.3378" x2="25.2222" y2="12.51061875" width="0.254" layer="1"/>
-<wire x1="25.2222" y1="16.86640625" x2="26.67" y2="18.31420625" width="0.254" layer="1"/>
-<wire x1="26.67" y1="18.31420625" x2="26.67" y2="18.415" width="0.254" layer="1"/>
-<wire x1="25.2222" y1="12.51061875" x2="25.2222" y2="16.86640625" width="0.254" layer="1"/>
-</signal>
-<signal name="USB+">
-<contactref element="U1" pad="2"/>
 <contactref element="U$1" pad="3"/>
-<via x="25.7175" y="19.05" extent="1-16" drill="0.3048"/>
-<wire x1="21.742" y1="18.445" x2="21.7718" y2="18.4748" width="0.254" layer="16"/>
-<wire x1="21.7718" y1="18.4748" x2="22.328775" y2="18.4748" width="0.254" layer="16"/>
-<wire x1="22.903975" y1="19.05" x2="25.7175" y2="19.05" width="0.254" layer="16"/>
-<wire x1="22.328775" y1="18.4748" x2="22.903975" y2="19.05" width="0.254" layer="16"/>
-<wire x1="5.55" y1="3.255" x2="5.7198" y2="3.4248" width="0.254" layer="1"/>
-<wire x1="5.7198" y1="3.4248" x2="5.7198" y2="4.591775" width="0.254" layer="1"/>
-<wire x1="17.5517125" y1="10.795" x2="22.86" y2="10.795" width="0.254" layer="1"/>
-<wire x1="16.8151125" y1="10.0584" x2="17.5517125" y2="10.795" width="0.254" layer="1"/>
-<wire x1="5.7198" y1="4.591775" x2="11.186425" y2="10.0584" width="0.254" layer="1"/>
-<wire x1="11.186425" y1="10.0584" x2="16.8151125" y2="10.0584" width="0.254" layer="1"/>
-<wire x1="22.86" y1="10.795" x2="24.765" y2="12.7" width="0.254" layer="1"/>
-<wire x1="24.765" y1="12.7" x2="24.765" y2="17.0557875" width="0.254" layer="1"/>
-<wire x1="24.765" y1="17.0557875" x2="25.7175" y2="18.0082875" width="0.254" layer="1"/>
-<wire x1="25.7175" y1="18.0082875" x2="25.7175" y2="19.05" width="0.254" layer="1"/>
+<wire x1="5.55" y1="3.255" x2="5.55" y2="4.49553125" width="0.1524" layer="1"/>
+<via x="25.4" y="18.415" extent="1-16" drill="0.3048"/>
+<wire x1="21.742" y1="17.945" x2="22.60553125" y2="17.945" width="0.1524" layer="16"/>
+<wire x1="22.60553125" y1="17.945" x2="23.55813125" y2="18.8976" width="0.1524" layer="16"/>
+<wire x1="23.55813125" y1="18.8976" x2="24.9174" y2="18.8976" width="0.1524" layer="16"/>
+<wire x1="24.9174" y1="18.8976" x2="25.4" y2="18.415" width="0.1524" layer="16"/>
+<wire x1="5.55" y1="4.49553125" x2="11.36686875" y2="10.3124" width="0.1524" layer="1"/>
+<wire x1="11.36686875" y1="10.3124" x2="22.79686875" y2="10.3124" width="0.1524" layer="1"/>
+<wire x1="22.79686875" y1="10.3124" x2="25.8826" y2="13.39813125" width="0.1524" layer="1"/>
+<wire x1="25.8826" y1="17.9324" x2="25.4" y2="18.415" width="0.1524" layer="1"/>
+<wire x1="25.8826" y1="13.39813125" x2="25.8826" y2="17.9324" width="0.1524" layer="1"/>
+</signal>
+<signal name="USB_P">
+<contactref element="U1" pad="2"/>
+<contactref element="U$1" pad="5"/>
+<wire x1="6.35" y1="3.255" x2="6.35" y2="4.86446875" width="0.1524" layer="1"/>
+<via x="26.035" y="19.05" extent="1-16" drill="0.3048"/>
+<wire x1="21.742" y1="18.445" x2="22.67446875" y2="18.445" width="0.1524" layer="16"/>
+<wire x1="22.67446875" y1="18.445" x2="23.43186875" y2="19.2024" width="0.1524" layer="16"/>
+<wire x1="23.43186875" y1="19.2024" x2="25.8826" y2="19.2024" width="0.1524" layer="16"/>
+<wire x1="25.8826" y1="19.2024" x2="26.035" y2="19.05" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="4.86446875" x2="11.49313125" y2="10.0076" width="0.1524" layer="1"/>
+<wire x1="11.49313125" y1="10.0076" x2="22.92313125" y2="10.0076" width="0.1524" layer="1"/>
+<wire x1="22.92313125" y1="10.0076" x2="26.1874" y2="13.27186875" width="0.1524" layer="1"/>
+<wire x1="26.1874" y1="13.27186875" x2="26.1874" y2="18.8976" width="0.1524" layer="1"/>
+<wire x1="26.1874" y1="18.8976" x2="26.035" y2="19.05" width="0.1524" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="J1" pad="4"/>
@@ -3923,6 +3919,18 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </signal>
 </signals>
 <errors>
+<approved hash="21,19,48fc4afe4afe48fc"/>
+<approved hash="21,19,14e216e016e014e2"/>
+<approved hash="21,19,b8c4bac6bac6b8c4"/>
+<approved hash="21,19,0067026502650067"/>
+<approved hash="21,19,44fa46f846f844fa"/>
+<approved hash="21,19,1402160016001402"/>
+<approved hash="21,19,64fa66f866f864fa"/>
+<approved hash="21,19,54f256f056f054f2"/>
+<approved hash="21,19,84fb86f986f984fb"/>
+<approved hash="21,19,54e256e056e054e2"/>
+<approved hash="21,19,29082b0a2b0a2908"/>
+<approved hash="21,19,14f216f016f014f2"/>
 <approved hash="2,20,ad492b31230aa572"/>
 <approved hash="2,20,d95cba78bb7ed85a"/>
 <approved hash="2,20,7d43a73baf13756b"/>

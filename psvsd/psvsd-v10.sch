@@ -283,8 +283,8 @@
 <connect gate="G$1" pin="UART_SYSCON_RFR" pad="38"/>
 <connect gate="G$1" pin="UART_SYSCON_RX" pad="18"/>
 <connect gate="G$1" pin="UART_SYSCON_TX" pad="20"/>
-<connect gate="G$1" pin="USB_D+" pad="3"/>
-<connect gate="G$1" pin="USB_D-" pad="5"/>
+<connect gate="G$1" pin="USB_D+" pad="5"/>
+<connect gate="G$1" pin="USB_D-" pad="3"/>
 <connect gate="G$1" pin="USIM_CLK_CONN" pad="46"/>
 <connect gate="G$1" pin="USIM_DATA_CONN" pad="48"/>
 <connect gate="G$1" pin="USIM_DET" pad="52"/>
@@ -8501,7 +8501,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-149.86" y1="-22.86" x2="-157.48" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB-" class="0">
+<net name="USB_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="USB-"/>
 <wire x1="-149.86" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91"/>
@@ -8513,7 +8513,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <label x="-45.72" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB+" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="USB+"/>
 <wire x1="-149.86" y1="-27.94" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
