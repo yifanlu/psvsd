@@ -16,12 +16,12 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -30,13 +30,13 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
@@ -627,8 +627,8 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 </pass>
 </autorouter>
 <elements>
-<element name="TP3" library="testpad" package="TP20R" value="TPTP20R" x="10.795" y="22.479">
-<attribute name="TP_SIGNAL_NAME" value="" x="10.795" y="22.479" size="1.778" layer="27" display="off"/>
+<element name="TP3" library="testpad" package="TP20R" value="TPTP20R" x="8.255" y="22.479">
+<attribute name="TP_SIGNAL_NAME" value="" x="8.255" y="22.479" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP11" library="testpad" package="TP20R" value="TPTP20R" x="27.94" y="22.479">
 <attribute name="TP_SIGNAL_NAME" value="" x="27.94" y="22.479" size="1.778" layer="27" display="off"/>
@@ -660,8 +660,8 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 <element name="TP18" library="testpad" package="TP20R" value="TPTP20R" x="24.13" y="30.099">
 <attribute name="TP_SIGNAL_NAME" value="" x="24.13" y="30.099" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP4" library="testpad" package="TP20R" value="TPTP20R" x="8.255" y="22.479">
-<attribute name="TP_SIGNAL_NAME" value="" x="8.255" y="22.479" size="1.778" layer="27" display="off"/>
+<element name="TP4" library="testpad" package="TP20R" value="TPTP20R" x="10.795" y="22.479">
+<attribute name="TP_SIGNAL_NAME" value="" x="10.795" y="22.479" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP19" library="testpad" package="TP20R" value="TPTP20R" x="16.51" y="22.479">
 <attribute name="TP_SIGNAL_NAME" value="" x="16.51" y="22.479" size="1.778" layer="27" display="off"/>
@@ -727,44 +727,23 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 <element name="X1" library="con-molex" package="PCIE-MINI-CONN" value="PCIE-MINI-CONN" x="9.144" y="15.6845"/>
 </elements>
 <signals>
-<signal name="USB_D-">
-<contactref element="X1" pad="3"/>
-<contactref element="U$1" pad="5"/>
-<contactref element="TP3" pad="TP"/>
-<wire x1="10.541" y1="14.605" x2="10.541" y2="11.684" width="0.127" layer="1"/>
-<wire x1="10.287" y1="14.859" x2="10.541" y2="14.605" width="0.127" layer="1"/>
-<wire x1="10.287" y1="19.939" x2="10.287" y2="18.923" width="0.127" layer="16"/>
-<wire x1="10.287" y1="18.923" x2="10.287" y2="14.859" width="0.127" layer="16"/>
-<wire x1="11.684" y1="21.336" x2="10.287" y2="19.939" width="0.127" layer="16"/>
-<wire x1="11.684" y1="21.59" x2="11.684" y2="21.336" width="0.127" layer="1"/>
-<wire x1="10.795" y1="22.479" x2="11.684" y2="21.59" width="0.127" layer="1"/>
-<wire x1="10.541" y1="11.684" x2="10.644" y2="11.5845" width="0.127" layer="1"/>
-<wire x1="11.43" y1="8.382" x2="11.43" y2="6.43" width="0.127" layer="1"/>
-<wire x1="11.938" y1="8.89" x2="11.43" y2="8.382" width="0.127" layer="1"/>
-<wire x1="11.938" y1="9.779" x2="11.938" y2="8.89" width="0.127" layer="16"/>
-<wire x1="15.113" y1="12.954" x2="11.938" y2="9.779" width="0.127" layer="16"/>
-<wire x1="15.113" y1="13.462" x2="15.113" y2="12.954" width="0.127" layer="16"/>
-<wire x1="11.811" y1="16.764" x2="15.113" y2="13.462" width="0.127" layer="16"/>
-<wire x1="11.811" y1="18.542" x2="11.811" y2="16.764" width="0.127" layer="16"/>
-<wire x1="11.43" y1="18.923" x2="11.811" y2="18.542" width="0.127" layer="16"/>
-<wire x1="10.287" y1="18.923" x2="11.43" y2="18.923" width="0.127" layer="16"/>
-<via x="10.287" y="14.859" extent="1-16" drill="0.3048"/>
-<via x="11.684" y="21.336" extent="1-16" drill="0.3048"/>
-<via x="11.938" y="8.89" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="USB_D+">
+<signal name="USB_P">
 <contactref element="X1" pad="5"/>
-<contactref element="U$1" pad="3"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="11.43" y1="8.763" x2="11.43" y2="11.557" width="0.127" layer="1"/>
-<wire x1="10.668" y1="8.001" x2="11.43" y2="8.763" width="0.127" layer="1"/>
-<wire x1="10.668" y1="6.477" x2="10.668" y2="8.001" width="0.127" layer="1"/>
+<contactref element="U$1" pad="5"/>
+<wire x1="11.43" y1="6.43" x2="11.43" y2="11.557" width="0.127" layer="1"/>
 <wire x1="11.43" y1="11.557" x2="11.444" y2="11.5845" width="0.127" layer="1"/>
-<wire x1="10.668" y1="6.477" x2="10.63" y2="6.43" width="0.127" layer="1"/>
-<wire x1="8.255" y1="18.161" x2="8.255" y2="22.479" width="0.127" layer="1"/>
-<wire x1="11.43" y1="14.986" x2="8.255" y2="18.161" width="0.127" layer="1"/>
-<wire x1="11.43" y1="11.684" x2="11.43" y2="14.986" width="0.127" layer="1"/>
+<wire x1="10.795" y1="22.225" x2="10.795" y2="22.479" width="0.127" layer="1"/>
+<wire x1="11.684" y1="21.336" x2="10.795" y2="22.225" width="0.127" layer="1"/>
+<wire x1="11.684" y1="19.939" x2="11.684" y2="21.336" width="0.127" layer="16"/>
+<wire x1="10.033" y1="18.288" x2="11.684" y2="19.939" width="0.127" layer="16"/>
+<wire x1="10.033" y1="17.145" x2="10.033" y2="18.288" width="0.127" layer="16"/>
+<wire x1="10.033" y1="16.764" x2="10.033" y2="17.145" width="0.127" layer="1"/>
+<wire x1="11.43" y1="15.367" x2="10.033" y2="16.764" width="0.127" layer="1"/>
+<wire x1="11.43" y1="11.684" x2="11.43" y2="15.367" width="0.127" layer="1"/>
 <wire x1="11.43" y1="11.684" x2="11.444" y2="11.5845" width="0.127" layer="1"/>
+<via x="11.684" y="21.336" extent="1-16" drill="0.3048"/>
+<via x="10.033" y="17.145" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="RESOUT">
 <contactref element="X1" pad="9"/>
@@ -1528,8 +1507,6 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 <wire x1="11.049" y1="6.477" x2="11.811" y2="6.477" width="0.127" layer="16"/>
 <wire x1="11.811" y1="6.477" x2="11.83" y2="6.43" width="0.127" layer="16"/>
 <wire x1="11.049" y1="6.477" x2="11.03" y2="6.43" width="0.127" layer="16"/>
-<contactref element="U$1" pad="GND@1"/>
-<contactref element="U$1" pad="GND@2"/>
 <wire x1="22.225" y1="6.477" x2="21.463" y2="6.477" width="0.127" layer="16"/>
 <wire x1="21.463" y1="6.477" x2="21.43" y2="6.43" width="0.127" layer="16"/>
 <wire x1="22.225" y1="6.477" x2="22.23" y2="6.43" width="0.127" layer="16"/>
@@ -1658,7 +1635,21 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 <vertex x="36.83" y="8.255"/>
 <vertex x="6.35" y="8.255"/>
 </polygon>
-<wire x1="30.244" y1="19.7845" x2="33.73" y2="28.98" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="GND@1"/>
+<contactref element="U$1" pad="GND@2"/>
+<wire x1="33.73" y1="28.98" x2="30.244" y2="19.7845" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB_N">
+<contactref element="X1" pad="3"/>
+<contactref element="TP3" pad="TP"/>
+<contactref element="U$1" pad="3"/>
+<wire x1="10.668" y1="6.477" x2="10.668" y2="11.557" width="0.127" layer="1"/>
+<wire x1="10.668" y1="11.557" x2="10.644" y2="11.5845" width="0.127" layer="1"/>
+<wire x1="10.668" y1="6.477" x2="10.63" y2="6.43" width="0.127" layer="1"/>
+<wire x1="8.255" y1="18.161" x2="8.255" y2="22.479" width="0.127" layer="1"/>
+<wire x1="10.541" y1="15.875" x2="8.255" y2="18.161" width="0.127" layer="1"/>
+<wire x1="10.541" y1="11.684" x2="10.541" y2="15.875" width="0.127" layer="1"/>
+<wire x1="10.541" y1="11.684" x2="10.644" y2="11.5845" width="0.127" layer="1"/>
 </signal>
 </signals>
 <errors>

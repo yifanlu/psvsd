@@ -283,8 +283,8 @@
 <connect gate="G$1" pin="UART_SYSCON_RFR" pad="38"/>
 <connect gate="G$1" pin="UART_SYSCON_RX" pad="18"/>
 <connect gate="G$1" pin="UART_SYSCON_TX" pad="20"/>
-<connect gate="G$1" pin="USB_D+" pad="3"/>
-<connect gate="G$1" pin="USB_D-" pad="5"/>
+<connect gate="G$1" pin="USB_D+" pad="5"/>
+<connect gate="G$1" pin="USB_D-" pad="3"/>
 <connect gate="G$1" pin="USIM_CLK_CONN" pad="46"/>
 <connect gate="G$1" pin="USIM_DATA_CONN" pad="48"/>
 <connect gate="G$1" pin="USIM_DET" pad="52"/>
@@ -1559,21 +1559,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="USB_D-" class="0">
-<segment>
-<pinref part="X1" gate="-3" pin="S"/>
-<pinref part="U$1" gate="G$1" pin="USB_D-"/>
-<wire x1="25.4" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<junction x="25.4" y="68.58"/>
-</segment>
-</net>
-<net name="USB_D+" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="X1" gate="-5" pin="S"/>
-<pinref part="U$1" gate="G$1" pin="USB_D+"/>
-<wire x1="25.4" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="U$1" gate="G$1" pin="USB_D+"/>
+<wire x1="33.02" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <junction x="25.4" y="66.04"/>
 </segment>
 </net>
@@ -1945,6 +1936,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="GND@44"/>
 <pinref part="X1" gate="-44" pin="S"/>
 <wire x1="101.6" y1="17.78" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_N" class="0">
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="U$1" gate="G$1" pin="USB_D-"/>
+<wire x1="33.02" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<junction x="25.4" y="68.58"/>
 </segment>
 </net>
 </nets>
