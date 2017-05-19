@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -84,7 +84,7 @@
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -253,6 +253,87 @@
 <rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="40" rot="R180"/>
 <pad name="GND@1" x="-8.25" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
 <pad name="GND@2" x="15.95" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
+<text x="8" y="13.5" size="1.27" layer="52" rot="MR0">BOTTOM</text>
+<text x="2.4" y="15.3" size="1.27" layer="51">TOP</text>
+</package>
+<package name="VITA-MINI-PCI-E">
+<wire x1="0" y1="0" x2="0" y2="4.6" width="0" layer="51"/>
+<wire x1="-0.75" y1="0" x2="-0.75" y2="3.3" width="0" layer="20"/>
+<wire x1="0.75" y1="0" x2="0.75" y2="3.3" width="0" layer="20"/>
+<wire x1="-0.75" y1="3.3" x2="0.75" y2="3.3" width="0" layer="20" curve="-180"/>
+<smd name="15" x="-2.35" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="17" x="1.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="13" x="-3.15" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="11" x="-3.95" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="9" x="-4.75" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="7" x="-5.55" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="5" x="-6.35" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="3" x="-7.15" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="1" x="-7.95" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<wire x1="-0.75" y1="0" x2="-9" y2="0" width="0" layer="20"/>
+<hole x="-8.25" y="27.3" drill="2.6"/>
+<wire x1="-9" y1="0" x2="-9" y2="2.8" width="0" layer="20"/>
+<wire x1="-11.15" y1="3.2" x2="-9.4" y2="3.2" width="0" layer="20"/>
+<wire x1="-9.4" y1="3.2" x2="-9" y2="2.8" width="0" layer="20" curve="-90"/>
+<wire x1="-11.15" y1="3.2" x2="-11.15" y2="30.2" width="0" layer="20"/>
+<wire x1="-11.15" y1="30.2" x2="18.85" y2="30.2" width="0" layer="20"/>
+<wire x1="0.75" y1="0" x2="16.7" y2="0" width="0" layer="20"/>
+<wire x1="16.7" y1="0" x2="16.7" y2="2.8" width="0" layer="20"/>
+<wire x1="18.85" y1="3.2" x2="17.1" y2="3.2" width="0" layer="20"/>
+<wire x1="17.1" y1="3.2" x2="16.7" y2="2.8" width="0" layer="20" curve="90"/>
+<wire x1="18.85" y1="3.2" x2="18.85" y2="30.2" width="0" layer="20"/>
+<hole x="15.95" y="27.3" drill="2.6"/>
+<smd name="19" x="2.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="21" x="3.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="23" x="4.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="25" x="4.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="27" x="5.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="29" x="6.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="31" x="7.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="33" x="8.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="35" x="8.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="37" x="9.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="39" x="10.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="41" x="11.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="43" x="12.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="45" x="12.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="47" x="13.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="49" x="14.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<smd name="51" x="15.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
+<rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="39"/>
+<rectangle x1="-11.15" y1="24.4" x2="-5.35" y2="30.2" layer="39"/>
+<rectangle x1="12.85" y1="24.4" x2="18.65" y2="30.2" layer="39"/>
+<smd name="4" x="-6.75" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="6" x="-5.95" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="2" x="-7.55" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="8" x="-5.15" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="10" x="-4.35" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="12" x="-3.55" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="14" x="-2.75" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="16" x="-1.95" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="18" x="2.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="20" x="2.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="22" x="3.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="24" x="4.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="26" x="5.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="28" x="6.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="30" x="6.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="32" x="7.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="34" x="8.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="36" x="9.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="38" x="10.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="40" x="10.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="42" x="11.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="44" x="12.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="46" x="13.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="48" x="14.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="50" x="14.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<smd name="52" x="15.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
+<rectangle x1="-11.14" y1="24.4" x2="-5.34" y2="30.2" layer="40" rot="R180"/>
+<rectangle x1="12.85" y1="24.4" x2="18.65" y2="30.2" layer="40" rot="R180"/>
+<rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="40" rot="R180"/>
+<pad name="GND@1" x="-8.25" y="27.3" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
+<pad name="GND@2" x="15.95" y="27.3" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
 <text x="8" y="13.5" size="1.27" layer="52" rot="MR0">BOTTOM</text>
 <text x="2.4" y="15.3" size="1.27" layer="51">TOP</text>
 </package>
@@ -534,7 +615,7 @@
 <gate name="G$1" symbol="VITA-CUSTOM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HALF-MINI-PCI-E">
+<device name="" package="VITA-MINI-PCI-E">
 <connects>
 <connect gate="G$1" pin="AWR" pad="31"/>
 <connect gate="G$1" pin="COM_VDD@33" pad="33"/>
