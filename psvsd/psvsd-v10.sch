@@ -77,7 +77,7 @@
 <libraries>
 <library name="mini-pci-e">
 <packages>
-<package name="HALF-MINI-PCI-E">
+<package name="VITA-MINI-PCI-E">
 <wire x1="0" y1="0" x2="0" y2="4.6" width="0" layer="51"/>
 <wire x1="-0.75" y1="0" x2="-0.75" y2="3.3" width="0" layer="20"/>
 <wire x1="0.75" y1="0" x2="0.75" y2="3.3" width="0" layer="20"/>
@@ -92,21 +92,18 @@
 <smd name="3" x="-7.15" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <smd name="1" x="-7.95" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <wire x1="-0.75" y1="0" x2="-9" y2="0" width="0" layer="20"/>
-<hole x="-8.25" y="23.9" drill="2.6"/>
+<hole x="-8.25" y="27.3" drill="2.6"/>
 <wire x1="-9" y1="0" x2="-9" y2="2.8" width="0" layer="20"/>
-<wire x1="-11.15" y1="3.2" x2="-10" y2="3.2" width="0" layer="20"/>
-<wire x1="-10" y1="3.2" x2="-9.4" y2="3.2" width="0" layer="20"/>
+<wire x1="-11.15" y1="3.2" x2="-9.4" y2="3.2" width="0" layer="20"/>
 <wire x1="-9.4" y1="3.2" x2="-9" y2="2.8" width="0" layer="20" curve="-90"/>
-<wire x1="-11.15" y1="3.2" x2="-11.15" y2="26.8" width="0" layer="20"/>
-<wire x1="-11.15" y1="26.8" x2="18.85" y2="26.8" width="0" layer="20"/>
-<wire x1="18.85" y1="26.8" x2="18.85" y2="3.2" width="0" layer="20"/>
+<wire x1="-11.15" y1="3.2" x2="-11.15" y2="30.2" width="0" layer="20"/>
+<wire x1="-11.15" y1="30.2" x2="18.85" y2="30.2" width="0" layer="20"/>
 <wire x1="0.75" y1="0" x2="16.7" y2="0" width="0" layer="20"/>
 <wire x1="16.7" y1="0" x2="16.7" y2="2.8" width="0" layer="20"/>
-<wire x1="18.85" y1="3.2" x2="17.7" y2="3.2" width="0" layer="20"/>
-<wire x1="17.7" y1="3.2" x2="17.1" y2="3.2" width="0" layer="20"/>
+<wire x1="18.85" y1="3.2" x2="17.1" y2="3.2" width="0" layer="20"/>
 <wire x1="17.1" y1="3.2" x2="16.7" y2="2.8" width="0" layer="20" curve="90"/>
-<wire x1="18.85" y1="3.2" x2="18.85" y2="26.8" width="0" layer="20"/>
-<hole x="15.95" y="23.9" drill="2.6"/>
+<wire x1="18.85" y1="3.2" x2="18.85" y2="30.2" width="0" layer="20"/>
+<hole x="15.95" y="27.3" drill="2.6"/>
 <smd name="19" x="2.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <smd name="21" x="3.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <smd name="23" x="4.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
@@ -125,8 +122,8 @@
 <smd name="49" x="14.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <smd name="51" x="15.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="39"/>
-<rectangle x1="-11.15" y1="21" x2="-5.35" y2="26.8" layer="39"/>
-<rectangle x1="12.85" y1="21" x2="18.65" y2="26.8" layer="39"/>
+<rectangle x1="-11.15" y1="24.4" x2="-5.35" y2="30.2" layer="39"/>
+<rectangle x1="12.85" y1="24.4" x2="18.65" y2="30.2" layer="39"/>
 <smd name="4" x="-6.75" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
 <smd name="6" x="-5.95" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
 <smd name="2" x="-7.55" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
@@ -153,11 +150,11 @@
 <smd name="48" x="14.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
 <smd name="50" x="14.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
 <smd name="52" x="15.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<rectangle x1="-11.05" y1="21" x2="-5.25" y2="26.8" layer="40" rot="R180"/>
-<rectangle x1="12.95" y1="21" x2="18.75" y2="26.8" layer="40" rot="R180"/>
+<rectangle x1="-11.14" y1="24.4" x2="-5.34" y2="30.2" layer="40" rot="R180"/>
+<rectangle x1="12.85" y1="24.4" x2="18.65" y2="30.2" layer="40" rot="R180"/>
 <rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="40" rot="R180"/>
-<pad name="GND@1" x="-8.25" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
-<pad name="GND@2" x="15.95" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
+<pad name="GND@1" x="-8.25" y="27.3" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
+<pad name="GND@2" x="15.95" y="27.3" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
 <text x="8" y="13.5" size="1.27" layer="52" rot="MR0">BOTTOM</text>
 <text x="2.4" y="15.3" size="1.27" layer="51">TOP</text>
 </package>
@@ -237,7 +234,7 @@
 <gate name="G$1" symbol="VITA-CUSTOM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HALF-MINI-PCI-E">
+<device name="" package="VITA-MINI-PCI-E">
 <connects>
 <connect gate="G$1" pin="AWR" pad="31"/>
 <connect gate="G$1" pin="COM_VDD@33" pad="33"/>
