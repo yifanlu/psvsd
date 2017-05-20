@@ -4,8 +4,8 @@ Qty,Reference,Description,Manufacturer,Part
 1,C2,"Capacitor, 10uF, 6.3VDC, 20%, X5R, 0603",Murata,GRM188R60J106ME47D
 4,"C1,C5,C7,C8","Capacitor, 1.0uF, 16VDC, 10%, X5R, 0603",Murata,GRM188R61C105KA93D
 2,"C9,C14","Capacitor, 4.7uF, 6.3VDC, 20%, X5R, 0603",Murata,GRM188R60J475KE19D
-1,FB1,"Ferrite Bead, 220 Ohm, 1.4A, 0.01DCR, 0402",Murata,BLM15PX221SN1D 
-1,J1,"microSD Card Connector, Hinge Type",Molex,0472192001
+1,FB1,"Ferrite Bead, 220 Ohm, 1.4A, 0.01DCR, 0402",Murata,BLM15PX221SN1D
+1,J1,"microSD Card Connector, Hinge Type",GCT,MEM2051-00-195-00-A
 2,"JP1,JP2","Pin Headers 0.1” spacing, 5",,
 1,R1,"Resistor, 1Meg, 5%, 1/16W, 0603",Panasonic,ERJ-3GEYJ105V
 2,"R2,R3","Resistor, 100K, 5%, 1/16W, 0603",Panasonic,ERJ-3GEYJ104V
