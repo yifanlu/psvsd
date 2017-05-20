@@ -9422,7 +9422,7 @@ Source: www.kingbright.com</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED1" library="led" deviceset="LED" device="SML0603" value="BLUE"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
