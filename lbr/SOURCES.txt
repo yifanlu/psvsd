@@ -1,2 +1,2 @@
-https://github.com/aep/EagleLibraries/blob/master/molex.lbr
+https://github.com/halfakop/eagle-lbr/blob/master/connectors/sd-mmc.lbr
 http://www.diymodules.org/eagle-show-library?type=usr&id=3314&part=mini-pci-e.lbr
