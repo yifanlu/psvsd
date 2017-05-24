@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,19 +8,19 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -1619,16 +1619,16 @@
 <rectangle x1="19.5453" y1="11.1379" x2="19.9009" y2="11.1633" layer="200"/>
 <rectangle x1="19.6215" y1="11.1633" x2="19.8247" y2="11.1887" layer="200"/>
 <text x="17.145" y="10.795" size="1.27" layer="21" font="fixed" rot="SR180">psvsd v1.1</text>
-<text x="6.985" y="24.13" size="0.635" layer="21" rot="SR180">RX</text>
-<text x="27.94" y="24.13" size="0.635" layer="21" rot="SR180">RX</text>
-<text x="6.985" y="21.59" size="0.635" layer="21" rot="SR180">TX</text>
-<text x="27.94" y="21.59" size="0.635" layer="21" rot="SR180">TX</text>
-<text x="6.985" y="19.05" size="0.635" layer="21" rot="SR180">CTS</text>
-<text x="27.94" y="19.05" size="0.635" layer="21" rot="SR180">CTS</text>
-<text x="6.985" y="16.51" size="0.635" layer="21" rot="SR180">RFR</text>
-<text x="27.94" y="16.51" size="0.635" layer="21" rot="SR180">RFR</text>
-<text x="27.94" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
-<text x="6.985" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
+<text x="7.62" y="24.13" size="0.635" layer="21" rot="SR180">RX</text>
+<text x="27.305" y="24.13" size="0.635" layer="21" rot="SR180">RX</text>
+<text x="7.62" y="21.59" size="0.635" layer="21" rot="SR180">TX</text>
+<text x="27.305" y="21.59" size="0.635" layer="21" rot="SR180">TX</text>
+<text x="7.62" y="19.05" size="0.635" layer="21" rot="SR180">CTS</text>
+<text x="27.305" y="19.05" size="0.635" layer="21" rot="SR180">CTS</text>
+<text x="7.62" y="16.51" size="0.635" layer="21" rot="SR180">RFR</text>
+<text x="27.305" y="16.51" size="0.635" layer="21" rot="SR180">RFR</text>
+<text x="27.305" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
+<text x="7.62" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
 </plain>
 <libraries>
 <library name="sd-mmc">
@@ -3384,7 +3384,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.4625" y="31.75" size="0.508" layer="28" rot="SMR180"/>
 </element>
 <element name="C4" library="rcl" package="C0402" value="18pF" x="13.716" y="31.75" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.0335" y="33.9725" size="0.635" layer="26" rot="MR270"/>
+<attribute name="NAME" x="14.0335" y="34.6075" size="0.635" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="13.081" y="32.385" size="0.508" layer="28" rot="MR270"/>
 </element>
 <element name="FB1" library="inductors" package="0402" value="" x="26.035" y="15.24" smashed="yes" rot="MR180">
