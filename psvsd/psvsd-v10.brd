@@ -1630,7 +1630,7 @@
 <text x="27.305" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
 <text x="7.62" y="26.67" size="0.635" layer="21" rot="SR180">GND</text>
 <hole x="18.95" y="22.65" drill="0.3556"/>
-<text x="17.145" y="12.065" size="0.762" layer="22" font="vector" rot="SR180">psvsd.henkaku.xyz</text>
+<text x="17.145" y="12.065" size="0.762" layer="21" font="vector" rot="SR180">psvsd.henkaku.xyz</text>
 </plain>
 <libraries>
 <library name="sd-mmc">
