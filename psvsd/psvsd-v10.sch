@@ -9346,7 +9346,7 @@ Source: www.kingbright.com</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="18pF"/>
 <part name="FB1" library="inductors" deviceset="BLM15H" device="" technology="B121SN1" value=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1.0uF"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="165K"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
