@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -96,13 +96,13 @@
 <wire x1="-9" y1="0" x2="-9" y2="2.8" width="0" layer="20"/>
 <wire x1="-11.15" y1="3.2" x2="-9.4" y2="3.2" width="0" layer="20"/>
 <wire x1="-9.4" y1="3.2" x2="-9" y2="2.8" width="0" layer="20" curve="-90"/>
-<wire x1="-11.15" y1="3.2" x2="-11.15" y2="33.4" width="0" layer="20"/>
-<wire x1="-11.15" y1="33.4" x2="18.85" y2="33.4" width="0" layer="20"/>
+<wire x1="-11.15" y1="3.2" x2="-11.15" y2="33.2" width="0" layer="20"/>
+<wire x1="-11.15" y1="33.2" x2="18.85" y2="33.2" width="0" layer="20"/>
 <wire x1="0.75" y1="0" x2="16.7" y2="0" width="0" layer="20"/>
 <wire x1="16.7" y1="0" x2="16.7" y2="2.8" width="0" layer="20"/>
 <wire x1="18.85" y1="3.2" x2="17.1" y2="3.2" width="0" layer="20"/>
 <wire x1="17.1" y1="3.2" x2="16.7" y2="2.8" width="0" layer="20" curve="90"/>
-<wire x1="18.85" y1="3.2" x2="18.85" y2="33.4" width="0" layer="20"/>
+<wire x1="18.85" y1="3.2" x2="18.85" y2="33.2" width="0" layer="20"/>
 <hole x="15.95" y="30.5" drill="2.6"/>
 <smd name="19" x="2.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
 <smd name="21" x="3.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
