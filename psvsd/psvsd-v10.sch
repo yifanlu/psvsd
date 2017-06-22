@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19449,7 +19449,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="0" y="101.6"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="CBYP" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CBYP"/>
 <wire x1="-15.24" y1="45.72" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
@@ -19457,7 +19457,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CSET" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="SET"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -19472,7 +19472,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="45.72" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="!S" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="91.44" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
