@@ -2,3 +2,4 @@ https://github.com/halfakop/eagle-lbr/blob/master/connectors/sd-mmc.lbr
 http://www.diymodules.org/eagle-show-library?type=usr&id=3314&part=mini-pci-e.lbr
 http://www.ti.com/product/LP3996/pinout-quality#cadsymfoot
 https://www.element14.com/community/thread/41525/l/nxp-eagle-library?displayFullThread=true
+https://github.com/robertstarr/lbr_user/blob/master/crystal.lbr
