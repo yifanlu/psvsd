@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -113,7 +113,7 @@
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -5440,6 +5440,14 @@ Please send your comments to the mail address above.</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB" width="0" drill="0">
+</class>
+<class number="2" name="Clock/HS" width="0" drill="0">
+<clearance class="1" value="1.27"/>
+</class>
+<class number="3" name="GND" width="0" drill="0">
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <designrules name="SparkFun *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
@@ -5676,8 +5684,8 @@ design rules under a new name.</description>
 </element>
 <element name="SD1" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" package="MICRO-SD9+4P-SMD-16.1X14.5X1.85MM" value="ST-TF-003A" x="15.05" y="16.56" smashed="yes" rot="R90">
 <attribute name="MPN" value="ST-TF-003A" x="15.05" y="16.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="9.9" y="30.303" size="0.6096" layer="25" ratio="11" rot="SR180"/>
 <attribute name="NAME" x="12.891" y="21.386" size="0.254" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="9.9" y="30.303" size="0.6096" layer="25" ratio="11" rot="SR180"/>
 <attribute name="VALUE" x="18.86" y="19.735" size="0.508" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="U$1" library="mini-pci-e" package="VITA-MINI-PCI-E" value="VITA-CUSTOM" x="11.176" y="0"/>
@@ -5726,7 +5734,7 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="GND">
+<signal name="GND" class="3">
 <contactref element="U$1" pad="4"/>
 <contactref element="U$1" pad="6"/>
 <contactref element="U$1" pad="2"/>
@@ -5768,16 +5776,16 @@ design rules under a new name.</description>
 <wire x1="20.08671875" y1="22.65" x2="19.13" y2="22.65" width="0.254" layer="16"/>
 <wire x1="20.08671875" y1="22.65" x2="21.9664" y2="20.77031875" width="0.254" layer="16"/>
 <polygon width="0.254" layer="1" rank="2">
-<vertex x="0" y="0"/>
-<vertex x="30" y="0"/>
+<vertex x="0" y="2.5"/>
+<vertex x="30" y="2.5"/>
 <vertex x="30" y="33.5"/>
 <vertex x="0" y="33.5"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="0" y="0"/>
+<vertex x="0" y="2.5"/>
 <vertex x="0" y="33.5"/>
 <vertex x="30" y="33.5"/>
-<vertex x="30" y="0"/>
+<vertex x="30" y="2.5"/>
 </polygon>
 <wire x1="15.13" y1="23.15" x2="15.88" y2="23.15" width="0.254" layer="16"/>
 <wire x1="17.13" y1="21.9" x2="15.88" y2="23.15" width="0.254" layer="16"/>
@@ -5791,10 +5799,13 @@ design rules under a new name.</description>
 <wire x1="16.88" y1="22.15" x2="17.13" y2="21.9" width="0.254" layer="16"/>
 <via x="19.5" y="15" extent="1-16" drill="0.35"/>
 <via x="13" y="4" extent="1-16" drill="0.35"/>
-<contactref element="U$1" pad="22"/>
 <contactref element="U$1" pad="24"/>
 <contactref element="U$1" pad="34"/>
 <via x="23.5" y="22" extent="1-16" drill="0.35"/>
+<wire x1="3.226" y1="1.35" x2="3.226" y2="3.774" width="0.254" layer="1"/>
+<wire x1="3.226" y1="3.774" x2="3" y2="4" width="0.254" layer="1"/>
+<wire x1="5.626" y1="1.35" x2="5.626" y2="3.626" width="0.254" layer="1"/>
+<wire x1="5.626" y1="3.626" x2="6" y2="4" width="0.254" layer="1"/>
 </signal>
 <signal name="UART_KERMIT_RFR">
 <contactref element="U$1" pad="8"/>
@@ -5910,8 +5921,8 @@ design rules under a new name.</description>
 <wire x1="26.5" y1="4" x2="26.98" y2="4" width="0.254" layer="16"/>
 <wire x1="26.98" y1="4" x2="28.81" y2="6.33" width="0.254" layer="16"/>
 <polygon width="0.254" layer="1">
-<vertex x="19" y="0"/>
-<vertex x="30" y="0"/>
+<vertex x="19" y="2.5"/>
+<vertex x="30" y="2.5"/>
 <vertex x="30" y="10"/>
 <vertex x="19" y="10"/>
 </polygon>
@@ -5930,7 +5941,7 @@ design rules under a new name.</description>
 <wire x1="26.62" y1="7.75" x2="26.74" y2="7.63" width="0.254" layer="16"/>
 <wire x1="26.74" y1="7.63" x2="28.81" y2="7.63" width="0.254" layer="16"/>
 </signal>
-<signal name="USB_N">
+<signal name="USB_N" class="1">
 <contactref element="U$1" pad="3"/>
 <contactref element="U1" pad="3"/>
 <via x="14" y="27" extent="1-16" drill="0.35"/>
@@ -5945,7 +5956,7 @@ design rules under a new name.</description>
 <wire x1="9.90530625" y1="26.2286" x2="13.2286" y2="26.2286" width="0.254" layer="1"/>
 <wire x1="13.2286" y1="26.2286" x2="14" y2="27" width="0.254" layer="1"/>
 </signal>
-<signal name="USB_P">
+<signal name="USB_P" class="1">
 <contactref element="U$1" pad="5"/>
 <contactref element="U1" pad="4"/>
 <via x="15" y="28" extent="1-16" drill="0.35"/>
@@ -6172,7 +6183,7 @@ design rules under a new name.</description>
 <wire x1="17.88" y1="23.9" x2="17.88" y2="26.09" width="0.254" layer="16"/>
 <wire x1="17.88" y1="26.09" x2="17.05" y2="26.92" width="0.254" layer="16"/>
 </signal>
-<signal name="SD_CLK">
+<signal name="SD_CLK" class="2">
 <contactref element="U1" pad="12"/>
 <contactref element="SD1" pad="5"/>
 <via x="19.5" y="19.5" extent="1-16" drill="0.35"/>
@@ -6192,7 +6203,7 @@ design rules under a new name.</description>
 <wire x1="16.1698" y1="19.1698" x2="15" y2="18" width="0.254" layer="16"/>
 <wire x1="15" y1="18" x2="15" y2="16.56" width="0.254" layer="1"/>
 </signal>
-<signal name="SD_D0">
+<signal name="SD_D0" class="2">
 <contactref element="U1" pad="11"/>
 <contactref element="SD1" pad="7"/>
 <via x="19.5" y="18" extent="1-16" drill="0.35"/>
@@ -6205,7 +6216,7 @@ design rules under a new name.</description>
 <wire x1="19.5" y1="18" x2="19.4" y2="17.9" width="0.254" layer="1"/>
 <wire x1="19.4" y1="17.9" x2="19.4" y2="16.56" width="0.254" layer="1"/>
 </signal>
-<signal name="SD_D1">
+<signal name="SD_D1" class="3">
 <contactref element="U1" pad="10"/>
 <contactref element="SD1" pad="8"/>
 <via x="20.75" y="18" extent="1-16" drill="0.35"/>
@@ -6216,7 +6227,7 @@ design rules under a new name.</description>
 <wire x1="20.75" y1="18" x2="20.5" y2="17.75" width="0.254" layer="1"/>
 <wire x1="20.5" y1="17.75" x2="20.5" y2="16.56" width="0.254" layer="1"/>
 </signal>
-<signal name="SD_D2">
+<signal name="SD_D2" class="2">
 <contactref element="U1" pad="19"/>
 <contactref element="SD1" pad="1"/>
 <via x="12.5" y="18" extent="1-16" drill="0.35"/>
@@ -6225,7 +6236,7 @@ design rules under a new name.</description>
 <wire x1="12.5" y1="18" x2="12.5" y2="16.86" width="0.254" layer="1"/>
 <wire x1="12.5" y1="16.86" x2="12.8" y2="16.56" width="0.254" layer="1"/>
 </signal>
-<signal name="SD_D3">
+<signal name="SD_D3" class="2">
 <contactref element="U1" pad="18"/>
 <contactref element="SD1" pad="2"/>
 <via x="13.75" y="18" extent="1-16" drill="0.35"/>
@@ -6251,7 +6262,8 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="5,16,cb6939a2dbd6d531"/>
+<approved hash="5,1,2f32dda2dbd6d56a"/>
+<approved hash="5,1,1f3aeda2dbd6d562"/>
 <approved hash="2,20,d4bc60527029c4c7"/>
 <approved hash="2,20,98a1d84fc83488da"/>
 <approved hash="4,1,510e6f7673e04d98"/>
@@ -6263,9 +6275,13 @@ design rules under a new name.</description>
 <approved hash="4,1,29d5fa45aa064398"/>
 <approved hash="4,1,41d1d249420a5b9c"/>
 <approved hash="4,1,59dd8a4cba0e7390"/>
-<approved hash="5,1,2f32dda2dbd6d56a"/>
+<approved hash="5,1,33b7216cd04ece6a"/>
+<approved hash="5,1,b6c7d291d8c25255"/>
+<approved hash="5,1,bc474d8fedf6f618"/>
 <approved hash="5,1,0736f5a2dbd6d56e"/>
-<approved hash="5,1,1f3aeda2dbd6d562"/>
+<approved hash="5,1,e3bef16e304c2e63"/>
+<approved hash="5,1,26c43291d8c2725e"/>
+<approved hash="5,1,0c46ad8ecdf61611"/>
 <approved hash="5,1,f73e05a2dbd6d566"/>
 <approved hash="5,1,cf023da2dbd6d55a"/>
 <approved hash="5,1,a70655a2dbd6d55e"/>
@@ -6336,6 +6352,7 @@ design rules under a new name.</description>
 <approved hash="5,16,f6f634ce2c56c81a"/>
 <approved hash="5,16,f39834c22c56cd78"/>
 <approved hash="5,16,f36501a2dbd6d53d"/>
+<approved hash="5,16,cb6939a2dbd6d531"/>
 <approved hash="5,16,4944d27a32e49526"/>
 <approved hash="5,16,4c5ad24632d89038"/>
 <approved hash="5,16,4229d24232de9e49"/>
@@ -6343,6 +6360,8 @@ design rules under a new name.</description>
 <approved hash="5,16,a36d51a2dbd6d535"/>
 <approved hash="5,16,af60279bd797ab09"/>
 <approved hash="5,16,82e81fabefe7be81"/>
+<approved hash="5,16,ec0684acc2753d24"/>
+<approved hash="5,16,390113aa24740323"/>
 <approved hash="5,16,bb7149a2dbd6d529"/>
 <approved hash="5,16,5e7fd69bd797ab16"/>
 <approved hash="5,16,73f7eeabefe7be9e"/>
