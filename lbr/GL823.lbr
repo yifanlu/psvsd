@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -180,38 +180,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="GL823">
-<pin name="DVDD" x="-12.7" y="12.7" length="short" direction="pwr"/>
-<pin name="AVDD" x="-12.7" y="10.16" length="short" direction="pwr"/>
-<pin name="VBUS" x="-12.7" y="7.62" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="PMOS" x="-12.7" y="2.54" length="short" direction="pwr"/>
-<pin name="G1" x="-12.7" y="0" length="short" direction="pwr"/>
-<pin name="USB_N" x="-12.7" y="-2.54" length="short"/>
-<pin name="USB_P" x="-12.7" y="-5.08" length="short"/>
-<pin name="RREF" x="-12.7" y="-7.62" length="short"/>
-<pin name="SD_WP" x="15.24" y="12.7" length="short" direction="in" rot="R180"/>
-<pin name="!SD_CD" x="15.24" y="10.16" length="short" direction="in" rot="R180"/>
-<pin name="SD_CLK" x="15.24" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="SD_CMD" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="SD_D0" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="SD_D1" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="SD_D2" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="SD_D3" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="!RESET" x="15.24" y="-7.62" length="short" direction="in" rot="R180"/>
-<pin name="TEST" x="15.24" y="-10.16" length="short" direction="in" rot="R180"/>
-<pin name="LED" x="-12.7" y="-10.16" length="short" direction="out"/>
-<pin name="GPIO3" x="-12.7" y="-12.7" length="short"/>
-<pin name="GPIO6" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="GPIO8" x="-12.7" y="-15.24" length="short"/>
-<pin name="GPIO9" x="15.24" y="-15.24" length="short" rot="R180"/>
-<pin name="SCL" x="-12.7" y="-17.78" length="short"/>
-<pin name="SDA" x="15.24" y="-17.78" length="short" rot="R180"/>
-<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-</symbol>
 <symbol name="GL823-33V">
 <pin name="DVDD" x="-12.7" y="12.7" length="short" direction="pwr"/>
 <pin name="AVDD" x="-12.7" y="10.16" length="short" direction="pwr"/>
@@ -240,6 +208,8 @@
 <wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="GL823-5V">
 <pin name="DVDD" x="-12.7" y="12.7" length="short" direction="pwr"/>
@@ -269,6 +239,8 @@
 <wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>

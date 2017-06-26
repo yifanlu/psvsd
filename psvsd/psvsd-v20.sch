@@ -19734,6 +19734,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
