@@ -1,0 +1,13 @@
+Qty,Reference,Description,Manufacturer,Part,Notes
+6,"C1,C2,C3,C5,C6,C8","Capacitor, 0.1uF, 0603",Yageo,CC0603KRX7R9BB104,
+2,"C4,C7","Capacitor, 10uF, 0603",Murata,GRM188R60J106ME47D,
+2,"C9,C10","Capacitor, 1.0uF, 0603",Yageo,CC0603KRX7R8BB105,
+1,FB1,"Ferrite Bead, 120 Ohm @ 100MHz, 0603",Murata,BLM18TG121TN1D,
+1,SD1,SMD Micro SD Card Socket,Best,TF-01,
+2,"JP1,JP2","Pin Headers 0.1” spacing, 5",,,Only fill if needed
+1,R1,"Resistor, 680, 0603",Yageo,RC0603JR-07680RL,
+1,R2,"Resistor, 20K, 0603",Yageo,RC0603FR-0720KL,
+1,R3,"Resistor, 1K, 0603",Yageo,RC0603JR-071KL,
+1,D1,"LED Blue, 3.2V, 20mA, 0603",Everlight,19-217-BHC-ZL1M2RY-3T,
+1,U2,"LDO 3.3V, 200mA",Micrel,MIC5504-3.3YM5-TR,
+1,U1,GL823 3.3V QFN24,Genesys,GL823,

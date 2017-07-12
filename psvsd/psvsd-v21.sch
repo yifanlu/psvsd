@@ -2633,7 +2633,7 @@ Source: www.kingbright.com</description>
 <part name="R2" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/10W(0603)" device="" value="20K"/>
 <part name="U2" library="Seeed-IC" library_urn="urn:adsk.eagle:library:470" deviceset="PMIC-LDO-XC6204B332MR(SOT23-5)" device="" value="3.3V"/>
 <part name="R3" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/10W(0603)" device="" value="1K"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" value="BLUE"/>
+<part name="D1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" value="BLUE"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2934,7 +2934,7 @@ Source: www.kingbright.com</description>
 <instance part="R1" gate="G$1" x="66.04" y="30.48" rot="R270"/>
 <instance part="R2" gate="G$1" x="48.26" y="45.72" rot="R270"/>
 <instance part="R3" gate="G$1" x="73.66" y="20.32" rot="R270"/>
-<instance part="LED1" gate="G$1" x="73.66" y="33.02"/>
+<instance part="D1" gate="G$1" x="73.66" y="33.02"/>
 <instance part="GND3" gate="1" x="66.04" y="10.16"/>
 <instance part="GND4" gate="1" x="35.56" y="33.02"/>
 <instance part="GND5" gate="1" x="25.4" y="33.02"/>
@@ -3065,12 +3065,12 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="G$1" pin="LED"/>
 <wire x1="96.52" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="LED_N" class="1">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="73.66" y1="27.94" x2="73.66" y2="24.13" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
