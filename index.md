@@ -4,11 +4,11 @@ psvsd is a hardware mod for OLED PS Vita that replaces the vestigal 3G modem wit
 
 ## Building
 
-psvsd is an open source hardware that is free for anyone to use, reproduce, or sale under the [CC-BY-4.0](https://github.com/yifanlu/psvsd/blob/master/LICENSE.txt) license.
+psvsd is an open source hardware that is free for anyone to use, reproduce, modify, or sale under the [CC-BY-4.0](https://github.com/yifanlu/psvsd/blob/master/LICENSE.txt) license.
 
 ## Purchase
 
-Currently there are no commerical production of psvsd. If you would like to sale psvsd, please file a [Github issue](https://github.com/yifanlu/psvsd/issues) and we will link to it here.
+Currently there are no commerical production of psvsd. If you would like to sell psvsd, please file a [Github issue](https://github.com/yifanlu/psvsd/issues) and we will link to it here.
 
 ## Installing
 
@@ -18,7 +18,7 @@ Requirements
 
 * PCH-110x 3G OLED model Vita running firmware 3.60 or lower. If you have a Wifi only OLED model or Vita that is on a higher firmware, consider buying a replacement motherboard online for ~$30.
 * Phillips #00 screwdriver
-* J00 or T4 screwdriver (different units have different screws for the 3G modem cards)
+* (Optional) J00 or T4 screwdriver (different units have different screws for the 3G modem cards)
 * (Optional) Spudger (will aid in opening the device, you can use your fingernails but you have to be careful)
 
 Steps
