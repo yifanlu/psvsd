@@ -17,6 +17,7 @@ Currently there are no commerical production of psvsd. If you would like to sell
 Requirements
 
 * PCH-110x 3G OLED model Vita running firmware 3.60 or lower. If you have a Wifi only OLED model or Vita that is on a higher firmware, consider buying a replacement motherboard online for ~$30.
+* microSD card formatted to either FAT32 or exFAT on your computer. If given the option, choose to use the MBR partition scheme. There is no capacity limit.
 * Phillips #00 screwdriver
 * (Optional) J00 or T4 screwdriver (different units have different screws for the 3G modem cards)
 * (Optional) Spudger (will aid in opening the device, you can use your fingernails but you have to be careful)
@@ -26,9 +27,8 @@ Steps
 1. Follow the disassembly tutorial on [iFixit](https://www.ifixit.com/Teardown/PlayStation+Vita+Teardown/7872) down to step 9. If you are replacing the motherboard as well, follow down to step 20. A general piece of advice is that you should be careful removing the battery connector. You should pull upwards away from the surface of the motherboard to remove the connector **not** downwards. That connector is very fragile and easily breakable.
 2. Remove the 3G modem card. Be **very** careful unscrewing the modem. The screws can be very tight and you can easily cam them out. If you are using a replacement motherboard, you can purchase screws with M1.6x4mm size.
 3. Insert the psvsd card at a 45° angle and push down to lock it in place. Use the screws to secure it in place.
-4. Format a microSD with FAT32 or exFAT on your computer. If given the option, choose to use the MBR partition scheme.
-5. Place the microSD card into the psvsd module.
-6. Reassemble the Vita back together.
+4. Place the microSD card into the psvsd module.
+5. Reassemble the Vita back together.
 
 ### Software
 
