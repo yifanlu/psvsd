@@ -2657,6 +2657,8 @@ Source: www.kingbright.com</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" value="UART_KERMIT"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" value="UART_SYSCON"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2945,6 +2947,8 @@ Source: www.kingbright.com</description>
 <instance part="GND10" gate="1" x="127" y="10.16"/>
 <instance part="GND11" gate="1" x="154.94" y="35.56"/>
 <instance part="GND12" gate="1" x="127" y="63.5" rot="R180"/>
+<instance part="GND22" gate="1" x="198.12" y="73.66" rot="R180"/>
+<instance part="GND23" gate="1" x="198.12" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -3044,6 +3048,26 @@ Source: www.kingbright.com</description>
 <wire x1="124.46" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="127" y1="58.42" x2="127" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SD1" gate="G$1" pin="G4"/>
+<wire x1="195.58" y1="67.31" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="68.58" x2="198.12" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SD1" gate="G$1" pin="G3"/>
+<wire x1="198.12" y1="68.58" x2="198.12" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="68.58" x2="198.12" y2="71.12" width="0.1524" layer="91"/>
+<junction x="198.12" y="68.58"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SD1" gate="G$1" pin="G1"/>
+<wire x1="195.58" y1="31.75" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SD1" gate="G$1" pin="G2"/>
+<wire x1="195.58" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="30.48" x2="198.12" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="30.48" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
+<junction x="198.12" y="30.48"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="USB_N" class="4">
