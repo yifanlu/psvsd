@@ -2,7 +2,7 @@
 
 ![adapter](psvsd.png)
 
-psvsd is a hardware mod for OLED PS Vita that replaces the vestigal 3G modem with a USB microSD card adapter. When used with a [hacked Vita](https://henkaku.xyz/) and the [usbmc](https://github.com/yifanlu/usbmc) plugin, you can replace the expensive PS Vita memory card with any microSD card. More information can be found on [Indiegogo](http://indiegogo.com/projects/ps-vita-3g-to-microsd-card-adapter/x/16550489).
+psvsd is a hardware mod for OLED PS Vita that replaces the vestigial 3G modem with a USB microSD card adapter. When used with a [hacked Vita](https://henkaku.xyz/) and the [usbmc](https://github.com/yifanlu/usbmc) plugin, you can replace the expensive PS Vita memory card with any microSD card. More information can be found on [Indiegogo](http://indiegogo.com/projects/ps-vita-3g-to-microsd-card-adapter/x/16550489).
 
 ## Building
 
