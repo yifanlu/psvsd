@@ -10,7 +10,9 @@ psvsd is an open source hardware that is free for anyone to use, reproduce, modi
 
 ## Purchase
 
-Currently there are no commerical production of psvsd. If you would like to sell psvsd, please file a [Github issue](https://github.com/yifanlu/psvsd/issues) and we will link to it here.
+The following links are third party sellers not affiliated or sponsored by us. If you would like to sell psvsd, please file a [Github issue](https://github.com/yifanlu/psvsd/issues) and we will link to it here.
+
+* [Aliexpress](https://www.aliexpress.com/item/SD-Card-adapter-for-3G-motherboard-psvita-adapter-for-PS-Vita-3G-models/32828992194.html)
 
 ## Installing
 
