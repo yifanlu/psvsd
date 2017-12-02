@@ -13,6 +13,7 @@ psvsd is an open source hardware that is free for anyone to use, reproduce, modi
 The following links are third party sellers not affiliated or sponsored by us. If you would like to sell psvsd, please file a [Github issue](https://github.com/yifanlu/psvsd/issues) and we will link to it here.
 
 * ~~Aliexpress~~ This seller has been removed due to reports of poor quality.
+* [SphereSolid](http://spheresolid.com/)
 
 ## Installing
 
