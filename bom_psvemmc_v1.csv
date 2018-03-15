@@ -9,6 +9,7 @@ Qty,Value,Device,Package,Parts
 1,1nF,Ceramic Capacitor,0603,C4
 5,1uF,Ceramic Capacitor,0603,"C1, C2, C3, C6, C7"
 1,4.7uF,Ceramic Capacitor Low ESR,0603,C12
+2,10pF,Ceramic Capacitor,0603,"C13, C14"
 1,BLUE,LED 0603,0603,D1
 1,LP3996SD-1833/NOPB,"Texas Instruments LP3996 Dual LDO, 1.8V, 3.3V",WSON,U2
 3,LSF0204RUTR,Texas Instruments LSF0204,RUT,"U3, U4, U5"
