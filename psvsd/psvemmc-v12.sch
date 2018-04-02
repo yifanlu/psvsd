@@ -2729,10 +2729,6 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <wire x1="198.12" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <junction x="200.66" y="43.18"/>
-<pinref part="U3" gate="G$1" pin="ECPAD"/>
-<wire x1="190.5" y1="45.72" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
-<junction x="198.12" y="43.18"/>
 </segment>
 </net>
 <net name="RBIAS" class="0">
