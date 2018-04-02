@@ -1,0 +1,18 @@
+Qty,Value,Device,Package,Parts
+1,PINHD-2X5,Pin Header,2X05,JP1
+1,100K,Resistor,0603,R3
+5,100nF,Ceramic Capacitor,0603,"C5, C8, C9, C10, C11"
+2,,Ferrite Bead,0603,"L1, L2"
+1,12K,Resistor,0603,R2
+1,1K,Resistor,0603,R4
+1,1M,Resistor,0603,R1
+1,1nF,Ceramic Capacitor,0603,C4
+5,1uF,Ceramic Capacitor,0603,"C1, C2, C3, C6, C7"
+1,4.7uF,Ceramic Capacitor Low ESR,0603,C12
+2,10pF,Ceramic Capacitor,0603,"C13, C14"
+1,BLUE,LED 0603,0603,D1
+1,LP3996SD-1833/NOPB,"Texas Instruments LP3996 Dual LDO, 1.8V, 3.3V",WSON,U2
+1,TXS02612RTWR,Texas Instruments TXS02612,RTW,U3
+1,USB2244-AEZG-06,Microchip USB2244,QFN36,U1
+1,XRCGB24M000F3N00R0,"Murata Hybrid Crystal, 24.000MHz, 30ppm, 6pF",XRCGB,Y1
+1,,"Micro USB Type AB receptacle, through hole",,X1
