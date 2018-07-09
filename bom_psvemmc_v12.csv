@@ -7,7 +7,7 @@ Qty,Value,Device,Package,Parts
 1,1K,Resistor,0603,R4
 1,1M,Resistor,0603,R1
 1,1nF,Ceramic Capacitor,0603,C4
-5,1uF,Ceramic Capacitor,0603,"C1, C2, C3, C6, C7"
+5,1uF,Ceramic Capacitor Low ESR,0603,"C1, C2, C3, C6, C7"
 1,4.7uF,Ceramic Capacitor Low ESR,0603,C12
 2,10pF,Ceramic Capacitor,0603,"C13, C14"
 1,BLUE,LED 0603,0603,D1
