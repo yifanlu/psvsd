@@ -3,3 +3,4 @@ http://www.diymodules.org/eagle-show-library?type=usr&id=3314&part=mini-pci-e.lb
 http://www.ti.com/product/LP3996/pinout-quality#cadsymfoot
 https://www.element14.com/community/thread/41525/l/nxp-eagle-library?displayFullThread=true
 https://github.com/robertstarr/lbr_user/blob/master/crystal.lbr
+https://github.com/MacroFab/EDALibraries
