@@ -3,7 +3,7 @@
 <eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -412,7 +412,7 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="crystal">
+<library name="crystal" urn="urn:adsk.eagle:library:204">
 <description>&lt;b&gt;Crystals and Crystal Resonators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -2998,98 +2998,234 @@ package type OT</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SN74LVC1G125">
+<library name="TPD4S014">
 <packages>
-<package name="DSF6">
-<smd name="1" x="-0.335" y="0.35" dx="0.53" dy="0.2" layer="1" cream="no"/>
-<smd name="2" x="-0.335" y="0" dx="0.53" dy="0.2" layer="1" cream="no"/>
-<smd name="3" x="-0.335" y="-0.35" dx="0.53" dy="0.2" layer="1" cream="no"/>
-<smd name="4" x="0.335" y="-0.35" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
-<smd name="5" x="0.335" y="0" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
-<smd name="6" x="0.335" y="0.35" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
+<package name="DSQ10_1P5X0P9">
+<smd name="1" x="-1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="2" x="-1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="3" x="-1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="4" x="-1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="5" x="-1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="6" x="1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="7" x="1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="8" x="1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="9" x="1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="10" x="1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="11" x="0" y="0" dx="0.9" dy="1.5" layer="1" cream="no"/>
+<pad name="V" x="0" y="0" drill="0.254" diameter="0.508" shape="square"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.57510625" y="0.42510625"/>
-<vertex x="-0.57510625" y="0.274890625"/>
-<vertex x="-0.094890625" y="0.274890625"/>
-<vertex x="-0.094890625" y="0.42510625"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.57510625" y="0.07510625"/>
-<vertex x="-0.57510625" y="-0.07510625"/>
-<vertex x="-0.094890625" y="-0.07510625"/>
-<vertex x="-0.094890625" y="0.07510625"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.57510625" y="-0.274890625"/>
-<vertex x="-0.57510625" y="-0.42510625"/>
-<vertex x="-0.094890625" y="-0.42510625"/>
-<vertex x="-0.094890625" y="-0.274890625"/>
+<vertex x="-0.37506875" y="0.675071875"/>
+<vertex x="-0.37506875" y="0.1"/>
+<vertex x="-0.241421875" y="0.1"/>
+<vertex x="-0.1" y="0.241421875"/>
+<vertex x="-0.1" y="0.675071875"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.094890625" y="-0.274890625"/>
-<vertex x="0.094890625" y="-0.42510625"/>
-<vertex x="0.57510625" y="-0.42510625"/>
-<vertex x="0.57510625" y="-0.274890625"/>
+<vertex x="-0.37506875" y="-0.1"/>
+<vertex x="-0.37506875" y="-0.675071875"/>
+<vertex x="-0.1" y="-0.675071875"/>
+<vertex x="-0.1" y="-0.241421875"/>
+<vertex x="-0.241421875" y="-0.1"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.094890625" y="0.07510625"/>
-<vertex x="0.094890625" y="-0.07510625"/>
-<vertex x="0.57510625" y="-0.07510625"/>
-<vertex x="0.57510625" y="0.07510625"/>
+<vertex x="0.1" y="0.675071875"/>
+<vertex x="0.1" y="0.241421875"/>
+<vertex x="0.241421875" y="0.1"/>
+<vertex x="0.37506875" y="0.1"/>
+<vertex x="0.37506875" y="0.675071875"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.094890625" y="0.42510625"/>
-<vertex x="0.094890625" y="0.274890625"/>
-<vertex x="0.57510625" y="0.274890625"/>
-<vertex x="0.57510625" y="0.42510625"/>
+<vertex x="0.241421875" y="-0.1"/>
+<vertex x="0.1" y="-0.241421875"/>
+<vertex x="0.1" y="-0.675071875"/>
+<vertex x="0.37506875" y="-0.675071875"/>
+<vertex x="0.37506875" y="-0.1"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.67" y="0.52"/>
-<vertex x="-0.67" y="0.18"/>
-<vertex x="0" y="0.18"/>
-<vertex x="0" y="0.52"/>
+<vertex x="-0.5135" y="0.8135"/>
+<vertex x="0.5135" y="0.8135"/>
+<vertex x="0.5135" y="0.2"/>
+<vertex x="-0.5135" y="0.2"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.67" y="0.17"/>
-<vertex x="-0.67" y="-0.17"/>
-<vertex x="0" y="-0.17"/>
-<vertex x="0" y="0.17"/>
+<vertex x="-0.5135" y="-0.2"/>
+<vertex x="0.5135" y="-0.2"/>
+<vertex x="0.5135" y="-0.8135"/>
+<vertex x="-0.5135" y="-0.8135"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.67" y="-0.18"/>
-<vertex x="-0.67" y="-0.52"/>
-<vertex x="0" y="-0.52"/>
-<vertex x="0" y="-0.18"/>
+<vertex x="-0.5135" y="0.8135"/>
+<vertex x="-0.2" y="0.8135"/>
+<vertex x="-0.2" y="-0.8135"/>
+<vertex x="-0.5135" y="-0.8135"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0" y="-0.18"/>
-<vertex x="0" y="-0.52"/>
-<vertex x="0.67" y="-0.52"/>
-<vertex x="0.67" y="-0.18"/>
+<vertex x="0.2" y="0.8135"/>
+<vertex x="0.5135" y="0.8135"/>
+<vertex x="0.5135" y="-0.8135"/>
+<vertex x="0.2" y="-0.8135"/>
+</polygon>
+<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="-1.0414" y1="1.0414" x2="-1.0414" y2="-1.0414" width="0.1524" layer="51"/>
+<text x="-2" y="1.5" size="1.27" layer="25">&gt;Name</text>
+<text x="-2" y="-2.5" size="1.27" layer="27">&gt;Value</text>
+<circle x="-1.27" y="1.27" radius="0.127" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPD4S014_DSQ_10">
+<pin name="VBUSOUT_2" x="0" y="0" direction="out"/>
+<pin name="VBUSOUT" x="0" y="-2.54" direction="out"/>
+<pin name="EN" x="0" y="-5.08" direction="in"/>
+<pin name="ACK" x="0" y="-7.62" direction="out"/>
+<pin name="ID" x="0" y="-10.16"/>
+<pin name="D-" x="66.04" y="-12.7" rot="R180"/>
+<pin name="D+" x="66.04" y="-10.16" rot="R180"/>
+<pin name="GND" x="66.04" y="-7.62" direction="pwr" rot="R180"/>
+<pin name="VBUS_2" x="66.04" y="-5.08" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="66.04" y="-2.54" direction="pwr" rot="R180"/>
+<pin name="EPAD" x="66.04" y="0" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="58.42" y1="-17.78" x2="58.42" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPD4S014_DSQ_10" prefix="U">
+<gates>
+<gate name="A" symbol="TPD4S014_DSQ_10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DSQ10_1P5X0P9">
+<connects>
+<connect gate="A" pin="ACK" pad="4"/>
+<connect gate="A" pin="D+" pad="7"/>
+<connect gate="A" pin="D-" pad="6"/>
+<connect gate="A" pin="EN" pad="3"/>
+<connect gate="A" pin="EPAD" pad="11"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="ID" pad="5"/>
+<connect gate="A" pin="VBUS" pad="10"/>
+<connect gate="A" pin="VBUSOUT" pad="2"/>
+<connect gate="A" pin="VBUSOUT_2" pad="1"/>
+<connect gate="A" pin="VBUS_2" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEETURL" value="httpwww.ti.comlitgpnTPD4S014" constant="no"/>
+<attribute name="FAMILY_NAME" value="ESD Solution" constant="no"/>
+<attribute name="GENERIC_PART_NUMBER" value="TPD4S014" constant="no"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="SON" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="tpd4s014_dsq_10" constant="no"/>
+<attribute name="PACKAGE_DESIGNATOR" value="DSQ" constant="no"/>
+<attribute name="PIN_COUNT" value="10" constant="no"/>
+<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TI_Low_Power_Buffers">
+<packages>
+<package name="DRY6">
+<smd name="1" x="-0.3550125" y="0.5" dx="0.55" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-0.37" y="0" dx="0.52" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="-0.37" y="-0.5" dx="0.52" dy="0.3" layer="1" cream="no"/>
+<smd name="4" x="0.37" y="-0.5" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="0.37" y="0" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="0.37" y="0.5" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.60510625" y="0.62510625"/>
+<vertex x="-0.60510625" y="0.374890625"/>
+<vertex x="-0.10491875" y="0.374890625"/>
+<vertex x="-0.10491875" y="0.62510625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.60510625" y="0.12510625"/>
+<vertex x="-0.60510625" y="-0.12510625"/>
+<vertex x="-0.134890625" y="-0.12510625"/>
+<vertex x="-0.134890625" y="0.12510625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.60510625" y="-0.374890625"/>
+<vertex x="-0.60510625" y="-0.62510625"/>
+<vertex x="-0.134890625" y="-0.62510625"/>
+<vertex x="-0.134890625" y="-0.374890625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.134890625" y="-0.374890625"/>
+<vertex x="0.134890625" y="-0.62510625"/>
+<vertex x="0.60510625" y="-0.62510625"/>
+<vertex x="0.60510625" y="-0.374890625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.134890625" y="0.12510625"/>
+<vertex x="0.134890625" y="-0.12510625"/>
+<vertex x="0.60510625" y="-0.12510625"/>
+<vertex x="0.60510625" y="0.12510625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.134890625" y="0.62510625"/>
+<vertex x="0.134890625" y="0.374890625"/>
+<vertex x="0.60510625" y="0.374890625"/>
+<vertex x="0.60510625" y="0.62510625"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0" y="0.17"/>
-<vertex x="0" y="-0.17"/>
-<vertex x="0.67" y="-0.17"/>
-<vertex x="0.67" y="0.17"/>
+<vertex x="-0.7" y="0.72"/>
+<vertex x="-0.7" y="0.28"/>
+<vertex x="-0.04" y="0.28"/>
+<vertex x="-0.04" y="0.72"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0" y="0.52"/>
-<vertex x="0" y="0.18"/>
-<vertex x="0.67" y="0.18"/>
-<vertex x="0.67" y="0.52"/>
+<vertex x="-0.7" y="0.22"/>
+<vertex x="-0.7" y="-0.22"/>
+<vertex x="-0.04" y="-0.22"/>
+<vertex x="-0.04" y="0.22"/>
 </polygon>
-<wire x1="-0.5334" y1="-0.5334" x2="0.5334" y2="-0.5334" width="0.1524" layer="51"/>
-<wire x1="0.5334" y1="-0.5334" x2="0.5334" y2="0.5334" width="0.1524" layer="51"/>
-<wire x1="0.5334" y1="0.5334" x2="0.3048" y2="0.5334" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.5334" x2="-0.3048" y2="0.5334" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.5334" x2="-0.5334" y2="0.5334" width="0.1524" layer="51"/>
-<wire x1="-0.5334" y1="0.5334" x2="-0.5334" y2="-0.5334" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.3556" x2="-0.9652" y2="0.3556" width="0" layer="51" curve="-180"/>
-<wire x1="-0.9652" y1="0.3556" x2="-0.8128" y2="0.3556" width="0" layer="51" curve="-180"/>
-<wire x1="0.3048" y1="0.5334" x2="-0.3048" y2="0.5334" width="0.1524" layer="51" curve="-180"/>
-<text x="-1" y="1" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1" y="-1" size="0.4064" layer="27">&gt;Value</text>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.7" y="-0.28"/>
+<vertex x="-0.7" y="-0.72"/>
+<vertex x="-0.04" y="-0.72"/>
+<vertex x="-0.04" y="-0.28"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.04" y="-0.28"/>
+<vertex x="0.04" y="-0.72"/>
+<vertex x="0.7" y="-0.72"/>
+<vertex x="0.7" y="-0.28"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.04" y="0.22"/>
+<vertex x="0.04" y="-0.22"/>
+<vertex x="0.7" y="-0.22"/>
+<vertex x="0.7" y="0.22"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.04" y="0.72"/>
+<vertex x="0.04" y="0.28"/>
+<vertex x="0.7" y="0.28"/>
+<vertex x="0.7" y="0.72"/>
+</polygon>
+<wire x1="-0.7874" y1="-1.016" x2="0.7874" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.7874" y1="1.016" x2="-0.7874" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.5334" y1="-0.762" x2="0.5334" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="-0.762" x2="0.5334" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="0.762" x2="0.3048" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="0.762" x2="-0.5334" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="-0.5334" y1="0.762" x2="-0.5334" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51" curve="-180"/>
+<text x="-1" y="1.5" size="0.8" layer="25">&gt;Name</text>
+<text x="-1" y="-2" size="0.8" layer="27">&gt;Value</text>
+<circle x="-1.27" y="0.77" radius="0.0508" width="0.1524" layer="21"/>
 </package>
 <package name="DPW0004A">
 <smd name="1" x="-0.39" y="0.24" dx="0.15" dy="0.15" layer="1" rot="R90"/>
@@ -3219,96 +3355,96 @@ package type OT</description>
 <vertex x="-0.18" y="-0.35"/>
 </polygon>
 </package>
-<package name="DRY6">
-<smd name="1" x="-0.3550125" y="0.5" dx="0.55" dy="0.3" layer="1" cream="no"/>
-<smd name="2" x="-0.37" y="0" dx="0.52" dy="0.3" layer="1" cream="no"/>
-<smd name="3" x="-0.37" y="-0.5" dx="0.52" dy="0.3" layer="1" cream="no"/>
-<smd name="4" x="0.37" y="-0.5" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="5" x="0.37" y="0" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="6" x="0.37" y="0.5" dx="0.52" dy="0.3" layer="1" rot="R180" cream="no"/>
+<package name="DSF6">
+<smd name="1" x="-0.335" y="0.35" dx="0.53" dy="0.2" layer="1" cream="no"/>
+<smd name="2" x="-0.335" y="0" dx="0.53" dy="0.2" layer="1" cream="no"/>
+<smd name="3" x="-0.335" y="-0.35" dx="0.53" dy="0.2" layer="1" cream="no"/>
+<smd name="4" x="0.335" y="-0.35" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="0.335" y="0" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="0.335" y="0.35" dx="0.53" dy="0.2" layer="1" rot="R180" cream="no"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.60510625" y="0.62510625"/>
-<vertex x="-0.60510625" y="0.374890625"/>
-<vertex x="-0.10491875" y="0.374890625"/>
-<vertex x="-0.10491875" y="0.62510625"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.60510625" y="0.12510625"/>
-<vertex x="-0.60510625" y="-0.12510625"/>
-<vertex x="-0.134890625" y="-0.12510625"/>
-<vertex x="-0.134890625" y="0.12510625"/>
+<vertex x="-0.57510625" y="0.42510625"/>
+<vertex x="-0.57510625" y="0.274890625"/>
+<vertex x="-0.094890625" y="0.274890625"/>
+<vertex x="-0.094890625" y="0.42510625"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.60510625" y="-0.374890625"/>
-<vertex x="-0.60510625" y="-0.62510625"/>
-<vertex x="-0.134890625" y="-0.62510625"/>
-<vertex x="-0.134890625" y="-0.374890625"/>
+<vertex x="-0.57510625" y="0.07510625"/>
+<vertex x="-0.57510625" y="-0.07510625"/>
+<vertex x="-0.094890625" y="-0.07510625"/>
+<vertex x="-0.094890625" y="0.07510625"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.134890625" y="-0.374890625"/>
-<vertex x="0.134890625" y="-0.62510625"/>
-<vertex x="0.60510625" y="-0.62510625"/>
-<vertex x="0.60510625" y="-0.374890625"/>
+<vertex x="-0.57510625" y="-0.274890625"/>
+<vertex x="-0.57510625" y="-0.42510625"/>
+<vertex x="-0.094890625" y="-0.42510625"/>
+<vertex x="-0.094890625" y="-0.274890625"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.134890625" y="0.12510625"/>
-<vertex x="0.134890625" y="-0.12510625"/>
-<vertex x="0.60510625" y="-0.12510625"/>
-<vertex x="0.60510625" y="0.12510625"/>
+<vertex x="0.094890625" y="-0.274890625"/>
+<vertex x="0.094890625" y="-0.42510625"/>
+<vertex x="0.57510625" y="-0.42510625"/>
+<vertex x="0.57510625" y="-0.274890625"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.134890625" y="0.62510625"/>
-<vertex x="0.134890625" y="0.374890625"/>
-<vertex x="0.60510625" y="0.374890625"/>
-<vertex x="0.60510625" y="0.62510625"/>
+<vertex x="0.094890625" y="0.07510625"/>
+<vertex x="0.094890625" y="-0.07510625"/>
+<vertex x="0.57510625" y="-0.07510625"/>
+<vertex x="0.57510625" y="0.07510625"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.094890625" y="0.42510625"/>
+<vertex x="0.094890625" y="0.274890625"/>
+<vertex x="0.57510625" y="0.274890625"/>
+<vertex x="0.57510625" y="0.42510625"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.7" y="0.72"/>
-<vertex x="-0.7" y="0.28"/>
-<vertex x="-0.04" y="0.28"/>
-<vertex x="-0.04" y="0.72"/>
+<vertex x="-0.67" y="0.52"/>
+<vertex x="-0.67" y="0.18"/>
+<vertex x="0" y="0.18"/>
+<vertex x="0" y="0.52"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.7" y="0.22"/>
-<vertex x="-0.7" y="-0.22"/>
-<vertex x="-0.04" y="-0.22"/>
-<vertex x="-0.04" y="0.22"/>
+<vertex x="-0.67" y="0.17"/>
+<vertex x="-0.67" y="-0.17"/>
+<vertex x="0" y="-0.17"/>
+<vertex x="0" y="0.17"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="-0.7" y="-0.28"/>
-<vertex x="-0.7" y="-0.72"/>
-<vertex x="-0.04" y="-0.72"/>
-<vertex x="-0.04" y="-0.28"/>
+<vertex x="-0.67" y="-0.18"/>
+<vertex x="-0.67" y="-0.52"/>
+<vertex x="0" y="-0.52"/>
+<vertex x="0" y="-0.18"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0.04" y="-0.28"/>
-<vertex x="0.04" y="-0.72"/>
-<vertex x="0.7" y="-0.72"/>
-<vertex x="0.7" y="-0.28"/>
+<vertex x="0" y="-0.18"/>
+<vertex x="0" y="-0.52"/>
+<vertex x="0.67" y="-0.52"/>
+<vertex x="0.67" y="-0.18"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0.04" y="0.22"/>
-<vertex x="0.04" y="-0.22"/>
-<vertex x="0.7" y="-0.22"/>
-<vertex x="0.7" y="0.22"/>
+<vertex x="0" y="0.17"/>
+<vertex x="0" y="-0.17"/>
+<vertex x="0.67" y="-0.17"/>
+<vertex x="0.67" y="0.17"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="0.04" y="0.72"/>
-<vertex x="0.04" y="0.28"/>
-<vertex x="0.7" y="0.28"/>
-<vertex x="0.7" y="0.72"/>
+<vertex x="0" y="0.52"/>
+<vertex x="0" y="0.18"/>
+<vertex x="0.67" y="0.18"/>
+<vertex x="0.67" y="0.52"/>
 </polygon>
-<wire x1="-0.7874" y1="-1.016" x2="0.7874" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.7874" y1="1.016" x2="-0.7874" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.5334" y1="-0.762" x2="0.5334" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="0.5334" y1="-0.762" x2="0.5334" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="0.5334" y1="0.762" x2="0.3048" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.762" x2="-0.5334" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-0.5334" y1="0.762" x2="-0.5334" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51" curve="-180"/>
-<text x="-1" y="1.5" size="0.8" layer="25">&gt;Name</text>
-<text x="-1" y="-2" size="0.8" layer="27">&gt;Value</text>
+<wire x1="-0.5334" y1="-0.5334" x2="0.5334" y2="-0.5334" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="-0.5334" x2="0.5334" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="0.5334" x2="0.3048" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="0.5334" x2="-0.3048" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="0.5334" x2="-0.5334" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.5334" y1="0.5334" x2="-0.5334" y2="-0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.8128" y1="0.3556" x2="-0.9652" y2="0.3556" width="0" layer="51" curve="-180"/>
+<wire x1="-0.9652" y1="0.3556" x2="-0.8128" y2="0.3556" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="0.5334" x2="-0.3048" y2="0.5334" width="0.1524" layer="51" curve="-180"/>
+<text x="-1" y="1" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1" y="-1" size="0.4064" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -3327,6 +3463,8 @@ package type OT</description>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <circle x="0" y="1.778" radius="0.254" width="0.508" layer="94"/>
 <circle x="3.048" y="0" radius="0.254" width="0.508" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="NON-INVERTING-POSITIVE-ENABLE">
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -3341,6 +3479,8 @@ package type OT</description>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3394,9 +3534,9 @@ package type OT</description>
 <devices>
 <device name="DPW" package="DPW0004A">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="5"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
@@ -3406,9 +3546,9 @@ package type OT</description>
 </device>
 <device name="DSF" package="DSF6">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="6"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
@@ -3418,148 +3558,14 @@ package type OT</description>
 </device>
 <device name="DRY" package="DRY6">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="6"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="TPD4S014">
-<packages>
-<package name="DSQ10_1P5X0P9">
-<smd name="1" x="-1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="2" x="-1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="3" x="-1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="4" x="-1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="5" x="-1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="6" x="1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="7" x="1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="8" x="1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="9" x="1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="10" x="1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="11" x="0" y="0" dx="0.9" dy="1.5" layer="1" cream="no"/>
-<pad name="V" x="0" y="0" drill="0.254" diameter="0.508" shape="square"/>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.37506875" y="0.675071875"/>
-<vertex x="-0.37506875" y="0.1"/>
-<vertex x="-0.241421875" y="0.1"/>
-<vertex x="-0.1" y="0.241421875"/>
-<vertex x="-0.1" y="0.675071875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.37506875" y="-0.1"/>
-<vertex x="-0.37506875" y="-0.675071875"/>
-<vertex x="-0.1" y="-0.675071875"/>
-<vertex x="-0.1" y="-0.241421875"/>
-<vertex x="-0.241421875" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="0.675071875"/>
-<vertex x="0.1" y="0.241421875"/>
-<vertex x="0.241421875" y="0.1"/>
-<vertex x="0.37506875" y="0.1"/>
-<vertex x="0.37506875" y="0.675071875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.241421875" y="-0.1"/>
-<vertex x="0.1" y="-0.241421875"/>
-<vertex x="0.1" y="-0.675071875"/>
-<vertex x="0.37506875" y="-0.675071875"/>
-<vertex x="0.37506875" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="0.8135"/>
-<vertex x="0.5135" y="0.8135"/>
-<vertex x="0.5135" y="0.2"/>
-<vertex x="-0.5135" y="0.2"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="-0.2"/>
-<vertex x="0.5135" y="-0.2"/>
-<vertex x="0.5135" y="-0.8135"/>
-<vertex x="-0.5135" y="-0.8135"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="0.8135"/>
-<vertex x="-0.2" y="0.8135"/>
-<vertex x="-0.2" y="-0.8135"/>
-<vertex x="-0.5135" y="-0.8135"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="0.2" y="0.8135"/>
-<vertex x="0.5135" y="0.8135"/>
-<vertex x="0.5135" y="-0.8135"/>
-<vertex x="0.2" y="-0.8135"/>
-</polygon>
-<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
-<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="1.0414" y1="1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="-1.0414" y1="1.0414" x2="-1.0414" y2="-1.0414" width="0.1524" layer="51"/>
-<text x="-2" y="1.5" size="1.27" layer="25">&gt;Name</text>
-<text x="-2" y="-2.5" size="1.27" layer="27">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TPD4S014_DSQ_10">
-<pin name="VBUSOUT_2" x="0" y="0" direction="out"/>
-<pin name="VBUSOUT" x="0" y="-2.54" direction="out"/>
-<pin name="EN" x="0" y="-5.08" direction="in"/>
-<pin name="ACK" x="0" y="-7.62" direction="out"/>
-<pin name="ID" x="0" y="-10.16"/>
-<pin name="D-" x="66.04" y="-12.7" rot="R180"/>
-<pin name="D+" x="66.04" y="-10.16" rot="R180"/>
-<pin name="GND" x="66.04" y="-7.62" direction="pwr" rot="R180"/>
-<pin name="VBUS_2" x="66.04" y="-5.08" direction="pwr" rot="R180"/>
-<pin name="VBUS" x="66.04" y="-2.54" direction="pwr" rot="R180"/>
-<pin name="EPAD" x="66.04" y="0" direction="pas" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="58.42" y1="-17.78" x2="58.42" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TPD4S014_DSQ_10" prefix="U">
-<gates>
-<gate name="A" symbol="TPD4S014_DSQ_10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DSQ10_1P5X0P9">
-<connects>
-<connect gate="A" pin="ACK" pad="4"/>
-<connect gate="A" pin="D+" pad="7"/>
-<connect gate="A" pin="D-" pad="6"/>
-<connect gate="A" pin="EN" pad="3"/>
-<connect gate="A" pin="EPAD" pad="11"/>
-<connect gate="A" pin="GND" pad="8"/>
-<connect gate="A" pin="ID" pad="5"/>
-<connect gate="A" pin="VBUS" pad="10"/>
-<connect gate="A" pin="VBUSOUT" pad="2"/>
-<connect gate="A" pin="VBUSOUT_2" pad="1"/>
-<connect gate="A" pin="VBUS_2" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEETURL" value="httpwww.ti.comlitgpnTPD4S014" constant="no"/>
-<attribute name="FAMILY_NAME" value="ESD Solution" constant="no"/>
-<attribute name="GENERIC_PART_NUMBER" value="TPD4S014" constant="no"/>
-<attribute name="INDUSTRY_STD_PKG_TYPE" value="SON" constant="no"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="tpd4s014_dsq_10" constant="no"/>
-<attribute name="PACKAGE_DESIGNATOR" value="DSQ" constant="no"/>
-<attribute name="PIN_COUNT" value="10" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -3582,7 +3588,7 @@ package type OT</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="U1" library="USB2244" deviceset="USB2244" device="QFN"/>
-<part name="Y1" library="crystal" deviceset="XRCGB" device=""/>
+<part name="Y1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="XRCGB" device=""/>
 <part name="R1" library="Seeed-Resistor" deviceset="SMD-RES-1M-1%-1/10W(0603)" device="" value="1M"/>
 <part name="R2" library="Seeed-Resistor" deviceset="SMD-RES-12K-1%-1/10W(0603)" device="" value="12K"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3651,9 +3657,9 @@ package type OT</description>
 <part name="R6" library="Seeed-Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" value="10K"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT" value="MF-CON-MICROUSB-RIGHT"/>
-<part name="U5" library="SN74LVC1G125" deviceset="SN74AUP1G240" device="DRY" value="SN74AUP1G240DRY"/>
+<part name="U5" library="TI_Low_Power_Buffers" deviceset="SN74AUP1G240" device="DRY" value="SN74AUP1G240DRY"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U6" library="SN74LVC1G125" deviceset="SN74AUP1G126" device="DRY" value="SN74AUP1G126DRY"/>
+<part name="U6" library="TI_Low_Power_Buffers" deviceset="SN74AUP1G126" device="DRY" value="SN74AUP1G126DRY"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CLK" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1"/>
 <part name="U7" library="TPD4S014" deviceset="TPD4S014_DSQ_10" device=""/>
@@ -3730,8 +3736,8 @@ package type OT</description>
 <instance part="DAT1" gate="G$1" x="220.98" y="83.82"/>
 <instance part="DAT2" gate="G$1" x="220.98" y="81.28"/>
 <instance part="DAT3" gate="G$1" x="220.98" y="78.74"/>
-<instance part="JP1" gate="A" x="165.1" y="137.16" rot="R90"/>
-<instance part="GND23" gate="1" x="175.26" y="134.62"/>
+<instance part="JP1" gate="A" x="165.1" y="142.24" rot="R90"/>
+<instance part="GND23" gate="1" x="175.26" y="137.16"/>
 <instance part="GND" gate="G$1" x="147.32" y="50.8"/>
 <instance part="U4" gate="G$1" x="142.24" y="66.04"/>
 <instance part="R5" gate="G$1" x="127" y="71.12" rot="R90"/>
@@ -3897,8 +3903,9 @@ package type OT</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="172.72" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="172.72" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="142.24" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -4113,11 +4120,11 @@ package type OT</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="157.48" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="154.94" y="137.16" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="154.94" y="142.24" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="154.94" y1="142.24" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U5" gate="B" pin="A"/>
 <wire x1="154.94" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="B" pin="OE"/>

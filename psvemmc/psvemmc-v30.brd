@@ -3,7 +3,7 @@
 <eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
@@ -190,7 +190,7 @@
 <wire x1="0" y1="20.5" x2="0" y2="2" width="0" layer="20"/>
 <rectangle x1="33" y1="2" x2="36" y2="9" layer="39"/>
 <text x="0.5" y="22" size="1" layer="21" font="vector" ratio="11" rot="R270" align="bottom-right">psvemmc
-v3.0</text>
+v3.1</text>
 <text x="32" y="1.5" size="0.8" layer="21" font="vector" ratio="11" rot="R180" align="bottom-right">Yifan Lu</text>
 <polygon width="0" layer="200">
 <vertex x="34.7067" y="2.24698125"/>
@@ -767,7 +767,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 </library>
-<library name="crystal">
+<library name="crystal" urn="urn:adsk.eagle:library:204">
 <description>&lt;b&gt;Crystals and Crystal Resonators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -1037,7 +1037,84 @@ package type OT</description>
 </package>
 </packages>
 </library>
-<library name="SN74LVC1G125">
+<library name="TPD4S014">
+<packages>
+<package name="DSQ10_1P5X0P9">
+<smd name="1" x="-1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="2" x="-1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="3" x="-1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="4" x="-1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="5" x="-1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="6" x="1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="7" x="1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="8" x="1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="9" x="1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="10" x="1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
+<smd name="11" x="0" y="0" dx="0.9" dy="1.5" layer="1" cream="no"/>
+<pad name="V" x="0" y="0" drill="0.254" diameter="0.508" shape="square"/>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.37506875" y="0.675071875"/>
+<vertex x="-0.37506875" y="0.1"/>
+<vertex x="-0.241421875" y="0.1"/>
+<vertex x="-0.1" y="0.241421875"/>
+<vertex x="-0.1" y="0.675071875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.37506875" y="-0.1"/>
+<vertex x="-0.37506875" y="-0.675071875"/>
+<vertex x="-0.1" y="-0.675071875"/>
+<vertex x="-0.1" y="-0.241421875"/>
+<vertex x="-0.241421875" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="0.675071875"/>
+<vertex x="0.1" y="0.241421875"/>
+<vertex x="0.241421875" y="0.1"/>
+<vertex x="0.37506875" y="0.1"/>
+<vertex x="0.37506875" y="0.675071875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.241421875" y="-0.1"/>
+<vertex x="0.1" y="-0.241421875"/>
+<vertex x="0.1" y="-0.675071875"/>
+<vertex x="0.37506875" y="-0.675071875"/>
+<vertex x="0.37506875" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.5135" y="0.8135"/>
+<vertex x="0.5135" y="0.8135"/>
+<vertex x="0.5135" y="0.2"/>
+<vertex x="-0.5135" y="0.2"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.5135" y="-0.2"/>
+<vertex x="0.5135" y="-0.2"/>
+<vertex x="0.5135" y="-0.8135"/>
+<vertex x="-0.5135" y="-0.8135"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.5135" y="0.8135"/>
+<vertex x="-0.2" y="0.8135"/>
+<vertex x="-0.2" y="-0.8135"/>
+<vertex x="-0.5135" y="-0.8135"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.2" y="0.8135"/>
+<vertex x="0.5135" y="0.8135"/>
+<vertex x="0.5135" y="-0.8135"/>
+<vertex x="0.2" y="-0.8135"/>
+</polygon>
+<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="-1.0414" y1="1.0414" x2="-1.0414" y2="-1.0414" width="0.1524" layer="51"/>
+<text x="-2" y="1.5" size="1.27" layer="25">&gt;Name</text>
+<text x="-2" y="-2.5" size="1.27" layer="27">&gt;Value</text>
+<circle x="-1.27" y="1.27" radius="0.127" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="TI_Low_Power_Buffers">
 <packages>
 <package name="DRY6">
 <smd name="1" x="-0.3550125" y="0.5" dx="0.55" dy="0.3" layer="1" cream="no"/>
@@ -1129,82 +1206,7 @@ package type OT</description>
 <wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51" curve="-180"/>
 <text x="-1" y="1.5" size="0.8" layer="25">&gt;Name</text>
 <text x="-1" y="-2" size="0.8" layer="27">&gt;Value</text>
-</package>
-</packages>
-</library>
-<library name="TPD4S014">
-<packages>
-<package name="DSQ10_1P5X0P9">
-<smd name="1" x="-1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="2" x="-1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="3" x="-1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="4" x="-1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="5" x="-1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="6" x="1.0274" y="-0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="7" x="1.0274" y="-0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="8" x="1.0274" y="0" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="9" x="1.0274" y="0.4" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="10" x="1.0274" y="0.8" dx="0.6548" dy="0.25" layer="1"/>
-<smd name="11" x="0" y="0" dx="0.9" dy="1.5" layer="1" cream="no"/>
-<pad name="V" x="0" y="0" drill="0.254" diameter="0.508" shape="square"/>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.37506875" y="0.675071875"/>
-<vertex x="-0.37506875" y="0.1"/>
-<vertex x="-0.241421875" y="0.1"/>
-<vertex x="-0.1" y="0.241421875"/>
-<vertex x="-0.1" y="0.675071875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-0.37506875" y="-0.1"/>
-<vertex x="-0.37506875" y="-0.675071875"/>
-<vertex x="-0.1" y="-0.675071875"/>
-<vertex x="-0.1" y="-0.241421875"/>
-<vertex x="-0.241421875" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="0.675071875"/>
-<vertex x="0.1" y="0.241421875"/>
-<vertex x="0.241421875" y="0.1"/>
-<vertex x="0.37506875" y="0.1"/>
-<vertex x="0.37506875" y="0.675071875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.241421875" y="-0.1"/>
-<vertex x="0.1" y="-0.241421875"/>
-<vertex x="0.1" y="-0.675071875"/>
-<vertex x="0.37506875" y="-0.675071875"/>
-<vertex x="0.37506875" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="0.8135"/>
-<vertex x="0.5135" y="0.8135"/>
-<vertex x="0.5135" y="0.2"/>
-<vertex x="-0.5135" y="0.2"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="-0.2"/>
-<vertex x="0.5135" y="-0.2"/>
-<vertex x="0.5135" y="-0.8135"/>
-<vertex x="-0.5135" y="-0.8135"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-0.5135" y="0.8135"/>
-<vertex x="-0.2" y="0.8135"/>
-<vertex x="-0.2" y="-0.8135"/>
-<vertex x="-0.5135" y="-0.8135"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="0.2" y="0.8135"/>
-<vertex x="0.5135" y="0.8135"/>
-<vertex x="0.5135" y="-0.8135"/>
-<vertex x="0.2" y="-0.8135"/>
-</polygon>
-<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
-<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="1.0414" y1="1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="-1.0414" y1="1.0414" x2="-1.0414" y2="-1.0414" width="0.1524" layer="51"/>
-<text x="-2" y="1.5" size="1.27" layer="25">&gt;Name</text>
-<text x="-2" y="-2.5" size="1.27" layer="27">&gt;Value</text>
+<circle x="-1.27" y="0.77" radius="0.0508" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1398,74 +1400,74 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <elements>
 <element name="C1" library="Seeed-Capacitor" package="C0603" value="1uf" x="13" y="18" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="13" y="18" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16" y="18.5" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="NAME" x="14.27" y="18.254" size="0.635" layer="33" ratio="10" rot="R180"/>
+<attribute name="NAME" x="16" y="18.5" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="13.27" y="18.5875" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C10" library="Seeed-Capacitor" package="C0603" value="100nf" x="27" y="10" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="27" y="10" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.5" y="12" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="NAME" x="27.254" y="8.73" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="27.5" y="12" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="28.5875" y="8.73" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C11" library="Seeed-Capacitor" package="C0603" value="100nf" x="21" y="5" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="21" y="5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23" y="4.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="22.27" y="5.254" size="0.635" layer="33" ratio="10" rot="R180"/>
+<attribute name="NAME" x="23" y="4.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="22.27" y="6.5875" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C12" library="Seeed-Capacitor" package="C0603" value="4.7uf" x="25.5" y="10" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB475" x="25.5" y="10" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26" y="12" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="NAME" x="25.754" y="8.73" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="26" y="12" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="27.0875" y="8.73" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C2" library="Seeed-Capacitor" package="C0603" value="1uf" x="5" y="18" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="5" y="18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="0.5" y="17.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="3.73" y="17.746" size="0.635" layer="33" ratio="10"/>
+<attribute name="NAME" x="0.5" y="17.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="4.23" y="17.9125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="Seeed-Capacitor" package="C0603" value="1uf" x="5" y="16.5" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="5" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5" y="15" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="3.73" y="16.246" size="0.635" layer="33" ratio="10"/>
+<attribute name="NAME" x="5" y="15" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="4.23" y="16.4125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C4" library="Seeed-Capacitor" package="C0603" value="1nf" x="13" y="19.5" smashed="yes" rot="R270">
 <attribute name="MPN" value="GRM1885C1H102JA01D" x="13" y="19.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16" y="20" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="NAME" x="14.27" y="19.754" size="0.635" layer="33" ratio="10" rot="R180"/>
+<attribute name="NAME" x="16" y="20" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="13.27" y="20.0875" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C5" library="Seeed-Capacitor" package="C0603" value="100nf" x="5" y="19.5" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="5" y="19.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5" y="20.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="3.73" y="19.246" size="0.635" layer="33" ratio="10"/>
+<attribute name="NAME" x="5" y="20.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="3.73" y="17.9125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C6" library="Seeed-Capacitor" package="C0603" value="1uf" x="10" y="8" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="10" y="8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7" y="7.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="8.73" y="7.746" size="0.635" layer="33" ratio="10"/>
+<attribute name="NAME" x="7" y="7.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="8.73" y="6.4125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C7" library="Seeed-Capacitor" package="C0603" value="1uf" x="23.5" y="8" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="23.5" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24" y="10" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="NAME" x="23.246" y="9.27" size="0.635" layer="33" ratio="10" rot="R270"/>
+<attribute name="NAME" x="24" y="10" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="21.9125" y="9.27" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C8" library="Seeed-Capacitor" package="C0603" value="100nf" x="13" y="6.5" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="13" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11" y="7" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="NAME" x="14.27" y="6.754" size="0.635" layer="33" ratio="10" rot="R180"/>
+<attribute name="NAME" x="11" y="7" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="14.27" y="8.0875" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C9" library="Seeed-Capacitor" package="C0603" value="100nf" x="16.5" y="15" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="16.5" y="15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.5" y="14.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="15.23" y="14.746" size="0.635" layer="33" ratio="10"/>
+<attribute name="NAME" x="13.5" y="14.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="15.23" y="13.4125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="D1" library="Seeed-LED" package="LED-0603" value="BLUE-0603" x="15.5" y="4" smashed="yes" rot="R270">
@@ -1513,20 +1515,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VENDOR" value="NationalSemiconductor" x="9" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VERSION" value="1" x="9" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Y1" library="crystal" package="XRCGB" value="XRCGB" x="13.5" y="10.5" smashed="yes" rot="R90">
+<element name="Y1" library="crystal" library_urn="urn:adsk.eagle:library:204" package="XRCGB" value="XRCGB" x="13.5" y="10.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="14" y="12.5" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="15.024" y="9.357" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C13" library="Seeed-Capacitor" package="C0603" value="10pf" x="10.5" y="10.5" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="10.5" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.754" y="9.23" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="11" y="12.5" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="10.754" y="9.23" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="12.0875" y="9.23" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C14" library="Seeed-Capacitor" package="C0603" value="10pf" x="12" y="10.5" smashed="yes">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="12" y="10.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.746" y="11.77" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="12.5" y="12.5" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="11.746" y="11.77" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="10.4125" y="11.77" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U3" library="TXS02612" package="S-PWQFN-N24" value="TXS02612" x="32" y="12" smashed="yes">
@@ -1645,11 +1647,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULATE" value="1" x="3" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-CON-MICROUSB-RIGHT" x="3" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U5" library="SN74LVC1G125" package="DRY6" value="SN74AUP1G240DRY" x="30.5" y="5" smashed="yes">
+<element name="U5" library="TI_Low_Power_Buffers" package="DRY6" value="SN74AUP1G240DRY" x="30.5" y="5" smashed="yes">
 <attribute name="NAME" x="28" y="4.5" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="29.5" y="3" size="0.8" layer="27"/>
 </element>
-<element name="U6" library="SN74LVC1G125" package="DRY6" value="SN74AUP1G126DRY" x="30.5" y="7.5" smashed="yes">
+<element name="U6" library="TI_Low_Power_Buffers" package="DRY6" value="SN74AUP1G126DRY" x="30.5" y="7.5" smashed="yes">
 <attribute name="NAME" x="28" y="7" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="29.5" y="5.5" size="0.8" layer="27"/>
 </element>
@@ -1673,14 +1675,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C15" library="Seeed-Capacitor" package="C0603" value="10UF 6.3V" x="6.5" y="2" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603MRX5R5BB106" x="6.5" y="2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7" y="4" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="NAME" x="6.754" y="0.73" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="7" y="4" size="0.889" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="8.0875" y="0.73" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C16" library="Seeed-Capacitor" package="C0603" value="10UF 6.3V" x="12.5" y="2" smashed="yes">
 <attribute name="MPN" value="CC0603MRX5R5BB106" x="12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12" y="5.5" size="0.889" layer="25" ratio="11" rot="R270"/>
 <attribute name="NAME" x="12.246" y="3.27" size="0.635" layer="33" ratio="10" rot="R270"/>
+<attribute name="NAME" x="12" y="5.5" size="0.889" layer="25" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="10.9125" y="3.27" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
@@ -1883,7 +1885,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J2" pad="5"/>
 <contactref element="U5" pad="1"/>
 <contactref element="U5" pad="3"/>
-<contactref element="U6" pad="2"/>
+<contactref element="U6" pad="3"/>
 <contactref element="C15" pad="1"/>
 <contactref element="C16" pad="2"/>
 <contactref element="U7" pad="11"/>
@@ -2085,7 +2087,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="2.73" y1="13.5" x2="2.73" y2="16.27" width="0.1524" layer="1"/>
 <wire x1="2.73" y1="16.27" x2="2.5" y2="16.5" width="0.1524" layer="1"/>
 <contactref element="U5" pad="2"/>
-<contactref element="U6" pad="3"/>
+<contactref element="U6" pad="1"/>
 <wire x1="2.73" y1="13.5" x2="2.73" y2="1.27" width="0.1524" layer="16"/>
 <wire x1="2.73" y1="1.27" x2="3.4666" y2="0.5334" width="0.1524" layer="16"/>
 <wire x1="25.5334" y1="0.5334" x2="29" y2="4" width="0.1524" layer="16"/>
@@ -2095,8 +2097,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="3.4666" y1="0.5334" x2="25.5334" y2="0.5334" width="0.1524" layer="16"/>
 <wire x1="29" y1="4" x2="29.6414" y2="4.6414" width="0.1524" layer="1"/>
 <wire x1="29.6414" y1="4.6414" x2="29.6414" y2="4.7446875" width="0.1524" layer="1"/>
-<wire x1="29.6414" y1="6.5114" x2="30.13" y2="7" width="0.1524" layer="1"/>
-<wire x1="29.6414" y1="4.7446875" x2="29.6414" y2="6.5114" width="0.1524" layer="1"/>
+<wire x1="30.1449875" y1="8" x2="30" y2="8" width="0.1524" layer="1"/>
+<wire x1="30" y1="8" x2="29.4826" y2="8.5174" width="0.1524" layer="1"/>
+<via x="29.4826" y="8.5174" extent="1-16" drill="0.254"/>
+<wire x1="29.4826" y1="8.5174" x2="29.4826" y2="4.4826" width="0.1524" layer="16"/>
+<wire x1="29.4826" y1="4.4826" x2="29" y2="4" width="0.1524" layer="16"/>
 </signal>
 <signal name="VDD18_USB">
 <contactref element="U1" pad="13"/>
@@ -2179,12 +2184,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.6686" y1="12.990825" x2="30.6686" y2="11.009175" width="0.254" layer="16"/>
 <wire x1="31" y1="9" x2="32" y2="8" width="0.254" layer="16"/>
 <via x="32" y="8" extent="1-16" drill="0.254"/>
-<wire x1="32" y1="8" x2="30.87" y2="8" width="0.254" layer="1"/>
 <wire x1="26.5" y1="15" x2="26.6242" y2="15.1242" width="0.254" layer="16"/>
 <wire x1="26.6242" y1="15.1242" x2="33" y2="15.1242" width="0.254" layer="16"/>
 <wire x1="32" y1="8" x2="32" y2="5.5" width="0.254" layer="16"/>
 <via x="32" y="5.5" extent="1-16" drill="0.254"/>
 <wire x1="32" y1="5.5" x2="30.87" y2="5.5" width="0.254" layer="1"/>
+<wire x1="30.87" y1="8" x2="32" y2="8" width="0.254" layer="1"/>
 </signal>
 <signal name="USB_5V">
 <contactref element="J2" pad="1"/>
@@ -2281,12 +2286,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.6186" y1="9.8936" x2="31.75" y2="10.025" width="0.1524" layer="1"/>
 <wire x1="29" y1="9" x2="30.99628125" y2="9" width="0.1524" layer="1"/>
 <wire x1="31.6186" y1="9.62231875" x2="30.99628125" y2="9" width="0.1524" layer="1"/>
-<wire x1="26.5649" y1="6.5649" x2="28.5" y2="8.5" width="0.1524" layer="1"/>
-<wire x1="28.5" y1="8.5" x2="29" y2="9" width="0.1524" layer="1"/>
+<wire x1="26.5649" y1="6.5649" x2="29" y2="9" width="0.1524" layer="1"/>
 <wire x1="22.7526" y1="6.5649" x2="26.5649" y2="6.5649" width="0.1524" layer="1"/>
-<contactref element="U6" pad="1"/>
-<wire x1="30.1449875" y1="8" x2="29.6449875" y2="8.5" width="0.1524" layer="1"/>
-<wire x1="29.6449875" y1="8.5" x2="28.5" y2="8.5" width="0.1524" layer="1"/>
+<contactref element="U6" pad="2"/>
+<wire x1="29.63" y1="7" x2="29" y2="7" width="0.1524" layer="1"/>
+<via x="29" y="7" extent="1-16" drill="0.254"/>
+<wire x1="30.13" y1="7.5" x2="30.0086" y2="7.3786" width="0.1524" layer="1"/>
+<wire x1="30.0086" y1="7.3786" x2="29.7753125" y2="7.3786" width="0.1524" layer="1"/>
+<wire x1="29.7753125" y1="7.3786" x2="29.6414" y2="7.2446875" width="0.1524" layer="1"/>
+<wire x1="29.6414" y1="7.2446875" x2="29.6414" y2="7.0114" width="0.1524" layer="1"/>
+<wire x1="29.6414" y1="7.0114" x2="29.63" y2="7" width="0.1524" layer="1"/>
+<wire x1="29" y1="7" x2="27" y2="7" width="0.1524" layer="16"/>
+<wire x1="27" y1="7" x2="26.5649" y2="6.5649" width="0.1524" layer="16"/>
+<via x="26.5649" y="6.5649" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="SD_D1">
 <contactref element="U1" pad="4"/>
@@ -2376,12 +2388,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="4"/>
 <contactref element="CLK" pad="TP"/>
 <via x="32" y="9" extent="1-16" drill="0.254"/>
-<wire x1="30.87" y1="7" x2="30.9914" y2="7.1214" width="0.1524" layer="1"/>
-<wire x1="32.4826" y1="7.8001" x2="32.4826" y2="8.1999" width="0.1524" layer="1"/>
+<wire x1="32.4826" y1="8" x2="32.4826" y2="8.1999" width="0.1524" layer="1"/>
 <wire x1="32" y1="8.6825" x2="32" y2="9" width="0.1524" layer="1"/>
 <wire x1="32.4826" y1="8.1999" x2="32" y2="8.6825" width="0.1524" layer="1"/>
-<wire x1="30.9914" y1="7.1214" x2="31.8039" y2="7.1214" width="0.1524" layer="1"/>
-<wire x1="31.8039" y1="7.1214" x2="32.4826" y2="7.8001" width="0.1524" layer="1"/>
 <via x="34.5" y="14.5" extent="1-16" drill="0.254"/>
 <wire x1="33.2806" y1="13.2806" x2="34.5" y2="14.5" width="0.1524" layer="16"/>
 <wire x1="32.5302125" y1="13.2806" x2="33.2806" y2="13.2806" width="0.1524" layer="16"/>
@@ -2390,6 +2399,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.5" y1="14.5" x2="35.5" y2="15.5" width="0.1524" layer="1"/>
 <wire x1="34.5" y1="14.5" x2="35.4826" y2="15.4826" width="0.1524" layer="16"/>
 <wire x1="35.4826" y1="15.4826" x2="35.4826" y2="17.1999" width="0.1524" layer="16"/>
+<wire x1="32.4826" y1="8" x2="32.4826" y2="7.8001" width="0.1524" layer="1"/>
+<wire x1="32.4826" y1="7.8001" x2="31.6825" y2="7" width="0.1524" layer="1"/>
+<wire x1="31.6825" y1="7" x2="30.87" y2="7" width="0.1524" layer="1"/>
 </signal>
 <signal name="MMC_D1">
 <contactref element="U3" pad="16"/>

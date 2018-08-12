@@ -382,6 +382,7 @@
 <wire x1="0.3048" y1="0.762" x2="-0.3048" y2="0.762" width="0.1524" layer="51" curve="-180"/>
 <text x="-1" y="1.5" size="0.8" layer="25">&gt;Name</text>
 <text x="-1" y="-2" size="0.8" layer="27">&gt;Value</text>
+<circle x="-1.27" y="0.77" radius="0.0508" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -398,6 +399,8 @@
 <wire x1="5.08" y1="10.16" x2="5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="NON-INVERTING-NEGATIVE-ENABLE">
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -413,6 +416,8 @@
 <wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <circle x="0" y="1.778" radius="0.254" width="0.508" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="95">&gt;Value</text>
 </symbol>
 <symbol name="INVERTING-NEGATIVE-ENABLE">
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -429,6 +434,8 @@
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <circle x="0" y="1.778" radius="0.254" width="0.508" layer="94"/>
 <circle x="3.048" y="0" radius="0.254" width="0.508" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -525,9 +532,9 @@
 <devices>
 <device name="DPW" package="DPW0004A">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="5"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
@@ -537,9 +544,9 @@
 </device>
 <device name="DSF" package="DSF6">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="6"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
@@ -549,9 +556,9 @@
 </device>
 <device name="DRY" package="DRY6">
 <connects>
-<connect gate="B" pin="A" pad="1"/>
-<connect gate="B" pin="GND" pad="2"/>
-<connect gate="B" pin="OE" pad="3"/>
+<connect gate="B" pin="A" pad="2"/>
+<connect gate="B" pin="GND" pad="3"/>
+<connect gate="B" pin="OE" pad="1"/>
 <connect gate="B" pin="VCC" pad="6"/>
 <connect gate="B" pin="Y" pad="4"/>
 </connects>
