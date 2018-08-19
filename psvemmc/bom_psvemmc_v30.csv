@@ -20,5 +20,5 @@ Qty,Value,Device,Package,Parts
 1,10118193-0001LF,"FCI micro-USB port",,J2
 1,24AA04T-I/OT,"Microchip 4K I2C EEPROM",SOT23-5,U4
 1,SN74AUP1G240DRYR,"TI Low-Power Single Buffer/Driver with 3-State Output",SON,U5
-1,SN74LVC1G125DRYR,"TI Low-Power Single Buffer/Driver with 3-State Output",SON,U6
+1,SN74LVC1G126DRYR,"TI Low-Power Single Buffer/Driver with 3-State Output",SON,U6
 1,TPD4S014DSQR,"TI USB Port Protection Device",WSON,U7
